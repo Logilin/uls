@@ -1,0 +1,10 @@
+
+
+BIN_DIR=/usr/lib/appli/bin
+DOC_DIR=/usr/lib/appli/doc
+SRC_DIR=/usr/lib/appli/src
+FNT_DIR=/usr/lib/appli/font
+
+
+
+

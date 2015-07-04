@@ -1,0 +1,22 @@
+Received: from prof.poudlard.org [12.34.56.78] (user23731)
+	by dumble.poudlard.org with SMTP
+	id 20htv3-0105nZ-01; Fri, 23 Mar 2001 08:38:27 -0800
+Received: from scom.poudlard.ord (salle_commune) [87.65.43.21] 
+	by prof.poudlard.org with esmtp (Exim 3.12 #1 (Debian))
+	id 14gUZv-0004mk-00; Fri, 23 Mar 2001 08:38:19 -0800
+Received: from gryfondor by salle_commune with with ESMTP
+	id a08tc1-0499cv-31; Fri, 23 Mar 2001 08:38:18 -0800
+To: hagrid@poudlard.org
+Subject: Paquet recu
+Cc: hermione@poudlard.org
+Message-Id: <E20htv3-0105hZ-01@touffu>
+From: harry@poudlard.org
+Date: Fri, 23 Mar 2001 08:38:18 -0800
+Status: RO
+
+Edwige m'a bien transmis ton paquet.
+
+A bientot,
+
+-- 
+Harry

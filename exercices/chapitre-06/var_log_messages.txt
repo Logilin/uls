@@ -1,0 +1,1882 @@
+Oct 19 08:05:07 venux syslogd 1.4.1: restart.
+Oct 19 08:09:38 venux login(pam_unix)[3502]: session closed for user ccb
+Oct 19 08:09:39 venux login(pam_unix)[3753]: session closed for user ccb
+Oct 19 08:23:28 venux login(pam_unix)[4874]: session opened for user ccb by (uid=0)
+Oct 19 08:23:28 venux  -- ccb[4874]: LOGIN ON pts/1 BY ccb FROM 192.1.1.52
+oct 19 08:23:32 venux su(pam_unix)[4908]: session opened for user root by ccb(uid=500)
+oct 19 08:24:15 venux su(pam_unix)[4908]: session closed for user root
+Oct 19 08:24:15 venux login(pam_unix)[4874]: session closed for user ccb
+Oct 19 08:26:45 venux login(pam_unix)[5079]: session opened for user ccb by (uid=0)
+Oct 19 08:26:45 venux  -- ccb[5079]: LOGIN ON pts/1 BY ccb FROM 192.168.1.52
+Oct 19 08:27:31 venux login(pam_unix)[5079]: session closed for user ccb
+Oct 19 08:31:05 venux login(pam_unix)[5124]: session opened for user ccb by (uid=0)
+Oct 19 08:31:05 venux  -- ccb[5124]: LOGIN ON pts/1 BY ccb FROM 192.168.1.254
+oct 19 08:31:42 venux su(pam_unix)[5176]: authentication failure; logname=ccb uid=500 euid=0 tty= ruser=ccb rhost=  user=root
+oct 19 08:31:49 venux su(pam_unix)[5181]: session opened for user root by ccb(uid=500)
+oct 19 08:33:30 venux su(pam_unix)[5181]: session closed for user root
+Oct 19 08:33:30 venux login(pam_unix)[5124]: session closed for user ccb
+Oct 19 08:35:24 venux login(pam_unix)[5237]: session opened for user ccb by (uid=0)
+Oct 19 08:35:24 venux  -- ccb[5237]: LOGIN ON pts/1 BY ccb FROM 192.168.1.52
+Oct 19 08:36:05 venux login(pam_unix)[5237]: session closed for user ccb
+Oct 19 08:36:07 venux login(pam_unix)[5339]: session opened for user ccb by (uid=0)
+Oct 19 08:36:07 venux  -- ccb[5339]: LOGIN ON pts/1 BY ccb FROM 192.168.1.52
+Oct 19 08:56:39 venux login(pam_unix)[5339]: session closed for user ccb
+Oct 19 08:58:47 venux vsftpd: warning: can't get client address: Bad file descriptor
+Oct 19 08:59:55 venux vsftpd: warning: can't get client address: Bad file descriptor
+Oct 19 09:01:02 venux last message repeated 2 times
+Oct 19 11:44:34 venux cardmgr[965]: socket 0: ATA/IDE Fixed Disk
+Oct 19 11:44:35 venux kernel: hde: SunDisk SDCFB-8, CFA DISK drive
+Oct 19 11:44:38 venux kernel: ide2 at 0x100-0x107,0x10e on irq 3
+Oct 19 11:44:38 venux kernel: hde: attached ide-disk driver.
+Oct 19 11:44:38 venux kernel: hde: task_no_data_intr: status=0x51 { DriveReady SeekComplete Error }
+Oct 19 11:44:38 venux kernel: hde: task_no_data_intr: error=0x04 { DriveStatusError }
+Oct 19 11:44:38 venux kernel: hde: 15680 sectors (8 MB) w/1KiB Cache, CHS=245/2/32
+Oct 19 11:44:38 venux kernel:  hde: hde1
+Oct 19 11:44:38 venux kernel: ide_cs: hde: Vcc = 3.3, Vpp = 0.0
+Oct 19 11:44:38 venux cardmgr[965]: executing: './ide start hde'
+Oct 19 11:44:39 venux kernel: floppy0: unexpected interrupt 
+Oct 19 11:44:39 venux kernel: floppy0: sensei repl[0]=c0 repl[1]=0 
+Oct 19 11:44:39 venux kernel: floppy0: sensei repl[0]=c1 repl[1]=0 
+Oct 19 11:44:39 venux kernel: floppy0: sensei repl[0]=c2 repl[1]=0 
+Oct 19 11:44:39 venux kernel: floppy0: sensei repl[0]=c3 repl[1]=0 
+Oct 19 11:44:52 venux kernel:  hde: hde1
+Oct 19 11:44:52 venux kernel:  hde: hde1
+Oct 19 11:44:52 venux modprobe: modprobe: Can't locate module nls_cp437
+Oct 19 11:45:05 venux cardmgr[965]: executing: './ide stop hde'
+Oct 19 11:45:05 venux modprobe: modprobe: Can't locate module block-major-33
+Oct 19 11:45:05 venux cardmgr[965]: + open() failed: No such device or address
+Oct 19 11:45:26 venux cardmgr[965]: socket 0: ATA/IDE Fixed Disk
+Oct 19 11:45:26 venux kernel: hde: SunDisk SDCFB-4, CFA DISK drive
+Oct 19 11:45:26 venux kernel: hdf: SunDisk SDCFB-4, CFA DISK drive
+Oct 19 11:45:28 venux kernel: ide2 at 0x100-0x107,0x10e on irq 3
+Oct 19 11:45:28 venux kernel: hde: attached ide-disk driver.
+Oct 19 11:45:28 venux kernel: hde: task_no_data_intr: status=0x51 { DriveReady SeekComplete Error }
+Oct 19 11:45:28 venux kernel: hde: task_no_data_intr: error=0x04 { DriveStatusError }
+Oct 19 11:45:28 venux kernel: hde: 7872 sectors (4 MB) w/1KiB Cache, CHS=123/2/32
+Oct 19 11:45:28 venux kernel: hdf: attached ide-disk driver.
+Oct 19 11:45:28 venux kernel: hdf: task_no_data_intr: status=0x51 { DriveReady SeekComplete Error }
+Oct 19 11:45:28 venux kernel: hdf: task_no_data_intr: error=0x04 { DriveStatusError }
+Oct 19 11:45:28 venux kernel: hdf: 7872 sectors (4 MB) w/1KiB Cache, CHS=123/2/32
+Oct 19 11:45:28 venux kernel:  hde: hde1
+Oct 19 11:45:28 venux cardmgr[965]: executing: './ide start hde'
+Oct 19 11:45:28 venux kernel:  hdf: hdf1
+Oct 19 11:45:28 venux kernel: ide_cs: hde: Vcc = 3.3, Vpp = 0.0
+Oct 19 11:45:33 venux kernel:  hde: hde1
+Oct 19 11:45:33 venux kernel:  hde: hde1
+Oct 19 11:45:33 venux modprobe: modprobe: Can't locate module nls_cp437
+Oct 19 11:46:15 venux cardmgr[965]: executing: './ide stop hde'
+Oct 19 11:46:15 venux modprobe: modprobe: Can't locate module block-major-33
+Oct 19 11:46:15 venux cardmgr[965]: + open() failed: No such device or address
+Oct 19 11:52:56 venux vsftpd: warning: can't get client address: Bad file descriptor
+Oct 19 11:58:34 venux kernel: cs: cb_free(bus 6)
+Oct 19 11:58:34 venux /etc/hotplug/pci.agent: PCI remove event not supported
+Oct 19 11:58:34 venux /etc/hotplug/net.agent: NET unregister event not supported
+oct 19 11:59:05 venux network: Arrêt de l'interface de loopback : succeeded
+Oct 19 11:59:06 venux apmd[989]: System Suspend
+oct 19 17:49:19 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+oct 19 17:49:19 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+Oct 19 17:49:19 venux apmd[989]: Normal Resume after 05:50:13 (95% 3:10) Battery power
+Oct 19 17:49:28 venux apmd[989]: Now using AC Power
+Oct 19 17:49:28 venux apmd[989]: Charge: * * * (95% 3:10)
+Oct 19 17:49:55 venux cardmgr[965]: socket 1: Serial or Modem
+Oct 19 17:49:55 venux kernel: ttyS01 at port 0x02f8 (irq = 3) is a 16550A
+Oct 19 17:49:55 venux cardmgr[965]: executing: './serial start ttyS1'
+oct 19 17:50:11 venux su(pam_unix)[5967]: session opened for user root by ccb(uid=500)
+Oct 19 17:50:19 venux pppd[6011]: pppd 2.4.1 started by root, uid 0
+Oct 19 17:50:20 venux chat[6013]: send (AT^M)
+Oct 19 17:50:20 venux chat[6013]: expect (OK)
+Oct 19 17:50:20 venux chat[6013]: AT^M^M
+Oct 19 17:50:20 venux chat[6013]: OK
+Oct 19 17:50:20 venux chat[6013]:  -- got it 
+Oct 19 17:50:20 venux chat[6013]: send (ATDT0860304050^M)
+Oct 19 17:50:20 venux chat[6013]: expect (gin:)
+Oct 19 17:50:20 venux chat[6013]: ^M
+Oct 19 17:51:05 venux chat[6013]: alarm
+Oct 19 17:51:05 venux chat[6013]: Failed
+Oct 19 17:51:05 venux pppd[6011]: Connect script failed
+Oct 19 17:51:06 venux pppd[6011]: Exit.
+oct 19 17:51:18 venux su(pam_unix)[5967]: session closed for user root
+Oct 19 17:51:22 venux kernel: ttyS01 unloaded
+Oct 19 17:51:22 venux cardmgr[965]: executing: './serial stop ttyS1'
+oct 19 17:51:37 venux su(pam_unix)[6076]: session opened for user root by ccb(uid=500)
+oct 19 17:52:39 venux su(pam_unix)[6076]: session closed for user root
+Oct 19 19:20:29 venux apmd[989]: Now using Battery Power
+Oct 19 19:20:29 venux apmd[989]: Battery: * * * (100% 3:20)
+Oct 19 21:59:28 venux apmd[989]: Now using AC Power
+Oct 19 21:59:28 venux apmd[989]: Charge: * * * (43% 1:26)
+oct 19 22:02:25 venux su(pam_unix)[7964]: session opened for user root by ccb(uid=500)
+oct 19 22:30:28 venux su(pam_unix)[7964]: session closed for user root
+Oct 19 22:30:49 venux init: Switching to runlevel: 0
+Oct 19 22:30:50 venux xdm(pam_unix)[30735]: session closed for user ccb
+oct 19 22:30:53 venux atd: Arrêt de atd succeeded
+oct 19 22:30:53 venux rc: Stopping keytable:  succeeded
+oct 19 22:30:53 venux cups: Arrêt de cupsd failed
+Oct 19 22:30:53 venux xfs[1135]: terminating 
+oct 19 22:30:55 venux xfs: Arrêt de xfs succeeded
+oct 19 22:30:55 venux gpm: Arrêt de gpm succeeded
+oct 19 22:30:55 venux sshd: sshd -TERM succeeded
+oct 19 22:30:56 venux vsftpd: Arrêt de vsftpd succeeded
+Oct 19 22:30:56 venux xinetd[1039]: Exiting...
+oct 19 22:30:56 venux xinetd: Arrêt de xinetd succeeded
+oct 19 22:30:56 venux crond: Arrêt de crond succeeded
+Oct 19 22:30:56 venux apmd[989]: Exiting
+oct 19 22:30:58 venux apmd: Arrêt de apmd succeeded
+oct 19 22:30:58 venux dd: 1+0 enregistrements lus.
+oct 19 22:30:58 venux dd: 1+0 enregistrements écrits.
+oct 19 22:30:58 venux random: Sauvegarde du random seed : succeeded
+oct 19 22:30:58 venux portmap: Arrêt de portmap succeeded
+Oct 19 22:30:59 venux kernel: Kernel logging (proc) stopped.
+Oct 19 22:30:59 venux kernel: Kernel log daemon terminating.
+oct 19 22:31:00 venux syslog: Arrêt de klogd succeeded
+Oct 19 22:31:00 venux exiting on signal 15
+Oct 19 22:38:08 venux syslogd 1.4.1: restart.
+oct 19 22:38:08 venux syslog: Démarrage de syslogd  succeeded
+oct 19 22:38:08 venux syslog: Démarrage de klogd  succeeded
+Oct 19 22:38:08 venux kernel: klogd 1.4.1, log source = /proc/kmsg started.
+Oct 19 22:38:08 venux kernel: Linux version 2.4.21 (root@venux) (version gcc 3.2.2 20030222 (Red Hat Linux 3.2.2-5)) #2 lun sep 1 10:23:41 CEST 2003
+Oct 19 22:38:08 venux kernel: BIOS-provided physical RAM map:
+Oct 19 22:38:08 venux kernel:  BIOS-e820: 0000000000000000 - 000000000009f800 (usable)
+Oct 19 22:38:08 venux kernel:  BIOS-e820: 000000000009f800 - 00000000000a0000 (reserved)
+Oct 19 22:38:08 venux kernel:  BIOS-e820: 00000000000eb800 - 0000000000100000 (reserved)
+Oct 19 22:38:08 venux kernel:  BIOS-e820: 0000000000100000 - 0000000008000000 (usable)
+Oct 19 22:38:08 venux kernel:  BIOS-e820: 00000000fffeb800 - 0000000100000000 (reserved)
+Oct 19 22:38:08 venux kernel: 128MB LOWMEM available.
+Oct 19 22:38:08 venux kernel: On node 0 totalpages: 32768
+Oct 19 22:38:08 venux kernel: zone(0): 4096 pages.
+Oct 19 22:38:08 venux kernel: zone(1): 28672 pages.
+Oct 19 22:38:08 venux kernel: zone(2): 0 pages.
+Oct 19 22:38:08 venux kernel: Kernel command line: auto BOOT_IMAGE=linux-2.4.21 ro root=305 BOOT_FILE=/boot/vmlinuz-2.4.21
+Oct 19 22:38:08 venux kernel: Initializing CPU#0
+Oct 19 22:38:08 venux kernel: Detected 400.012 MHz processor.
+Oct 19 22:38:08 venux kernel: Console: colour VGA+ 80x25
+Oct 19 22:38:08 venux kernel: Calibrating delay loop... 797.90 BogoMIPS
+Oct 19 22:38:08 venux kernel: Memory: 126404k/131072k available (1886k kernel code, 4280k reserved, 641k data, 116k init, 0k highmem)
+oct 19 22:38:08 venux portmap: Démarrage de portmap  succeeded
+Oct 19 22:38:08 venux kernel: Dentry cache hash table entries: 16384 (order: 5, 131072 bytes)
+Oct 19 22:38:09 venux kernel: Inode cache hash table entries: 8192 (order: 4, 65536 bytes)
+Oct 19 22:38:09 venux kernel: Mount cache hash table entries: 512 (order: 0, 4096 bytes)
+Oct 19 22:38:09 venux kernel: Buffer-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Oct 19 22:38:09 venux kernel: Page-cache hash table entries: 32768 (order: 5, 131072 bytes)
+Oct 19 22:38:09 venux kernel: CPU: L1 I cache: 16K, L1 D cache: 16K
+Oct 19 22:38:09 venux kernel: CPU: L2 cache: 128K
+Oct 19 22:38:09 venux kernel: Intel machine check architecture supported.
+Oct 19 22:38:09 venux kernel: Intel machine check reporting enabled on CPU#0.
+Oct 19 22:38:09 venux kernel: CPU: Intel Celeron (Mendocino) stepping 0a
+oct 19 22:38:09 venux keytable: Chargement de la configuration clavier :
+Oct 19 22:38:09 venux kernel: Enabling fast FPU save and restore... done.
+Oct 19 22:38:09 venux kernel: Checking 'hlt' instruction... OK.
+Oct 19 22:38:09 venux kernel: POSIX conformance testing by UNIFIX
+Oct 19 22:38:09 venux kernel: PCI: PCI BIOS revision 2.10 entry at 0xfd9d3, last bus=1
+Oct 19 22:38:09 venux kernel: PCI: Using configuration type 1
+oct 19 22:38:09 venux keytable: 
+Oct 19 22:38:09 venux kernel: PCI: Probing PCI hardware
+oct 19 22:38:09 venux keytable: Chargement des polices du système :
+Oct 19 22:38:09 venux kernel: PCI: Using IRQ router PIIX [8086/7110] at 00:07.0
+Oct 19 22:38:09 venux kernel: PCI: Found IRQ 11 for device 00:04.0
+Oct 19 22:38:09 venux kernel: PCI: Sharing IRQ 11 with 01:00.0
+Oct 19 22:38:09 venux kernel: PCI: Found IRQ 11 for device 00:04.1
+oct 19 22:38:09 venux keytable: 
+Oct 19 22:38:09 venux kernel: Limiting direct PCI/PCI transfers.
+oct 19 22:38:09 venux rc: Starting keytable:  succeeded
+Oct 19 22:38:09 venux kernel: isapnp: Scanning for PnP cards...
+Oct 19 22:38:09 venux kernel: isapnp: No Plug & Play device found
+Oct 19 22:38:09 venux kernel: Linux NET4.0 for Linux 2.4
+Oct 19 22:38:09 venux kernel: Based upon Swansea University Computer Society NET3.039
+Oct 19 22:38:09 venux kernel: Initializing RT netlink socket
+Oct 19 22:38:09 venux kernel: apm: BIOS version 1.2 Flags 0x03 (Driver version 1.16)
+Oct 19 22:38:09 venux kernel: Starting kswapd
+Oct 19 22:38:09 venux kernel: Journalled Block Device driver loaded
+Oct 19 22:38:09 venux kernel: Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Oct 19 22:38:09 venux kernel: pty: 256 Unix98 ptys configured
+Oct 19 22:38:09 venux kernel: i8k: unable to get DMI information
+Oct 19 22:38:09 venux kernel: i8k: vendor=?, model=?, version=?
+Oct 19 22:38:09 venux kernel: i8k: unable to get SMM Dell signature
+Oct 19 22:38:09 venux kernel: i8k: unable to get SMM BIOS version
+Oct 19 22:38:09 venux kernel: Serial driver version 5.05c (2001-07-08) with MANY_PORTS SHARE_IRQ SERIAL_PCI ISAPNP enabled
+Oct 19 22:38:09 venux kernel: ttyS00 at 0x03f8 (irq = 4) is a 16550A
+Oct 19 22:38:09 venux kernel: Real Time Clock Driver v1.10e
+Oct 19 22:38:09 venux kernel: Software Watchdog Timer: 0.05, timer margin: 60 sec
+Oct 19 22:38:09 venux kernel: Floppy drive(s): fd0 is 1.44M
+Oct 19 22:38:09 venux kernel: FDC 0 is a post-1991 82077
+Oct 19 22:38:09 venux kernel: RAMDISK driver initialized: 16 RAM disks of 4096K size 1024 blocksize
+oct 19 22:38:09 venux random: Initialisation du générateur de nombre aléatoire : succeeded
+Oct 19 22:38:09 venux kernel: loop: loaded (max 8 devices)
+Oct 19 22:38:10 venux kernel: PPP generic driver version 2.4.2
+oct 19 22:38:07 venux network: Montage de l'interface : succeeded 
+Oct 19 22:38:10 venux kernel: PPP Deflate Compression module registered
+oct 19 22:38:07 venux ifup: Le dispositif 3c59x n'étant pas présent, l'initialisation de eth0 sera retardée. 
+Oct 19 22:38:10 venux kernel: PPP BSD Compression module registered
+oct 19 22:38:07 venux network: Montage de l'interface eth0 : failed 
+Oct 19 22:38:10 venux kernel: Linux agpgart interface v0.99 (c) Jeff Hartmann
+oct 19 22:38:07 venux ifup: Le dispositif 3c59x n'étant pas présent, l'initialisation de eth0 sera retardée. 
+Oct 19 22:38:10 venux kernel: agpgart: Maximum main memory to use for agp memory: 96M
+oct 19 22:38:07 venux network: Montage de l'interface eth0.adp : failed 
+Oct 19 22:38:10 venux kernel: agpgart: Detected Intel 440BX chipset
+oct 19 22:38:07 venux ifup: Le dispositif 3c59x n'étant pas présent, l'initialisation de eth0 sera retardée. 
+Oct 19 22:38:10 venux kernel: agpgart: AGP aperture is 64M @ 0xe0000000
+oct 19 22:38:07 venux network: Montage de l'interface eth0.ccb : failed 
+Oct 19 22:38:10 venux kernel: [drm] AGP 0.99 on Intel 440BX @ 0xe0000000 64MB
+Oct 19 22:38:10 venux kernel: [drm] Initialized r128 2.2.0 20010917 on minor 0
+Oct 19 22:38:10 venux kernel: [drm] AGP 0.99 on Intel 440BX @ 0xe0000000 64MB
+Oct 19 22:38:10 venux kernel: [drm] Initialized radeon 1.1.1 20010405 on minor 1
+Oct 19 22:38:10 venux kernel: Uniform Multi-Platform E-IDE driver Revision: 7.00beta4-2.4
+oct 19 22:38:10 venux pcmcia: Starting PCMCIA services:
+Oct 19 22:38:10 venux kernel: ide: Assuming 33MHz system bus speed for PIO modes; override with idebus=xx
+oct 19 22:38:10 venux pcmcia:  cardmgr.
+Oct 19 22:38:10 venux kernel: PIIX4: IDE controller at PCI slot 00:07.1
+Oct 19 22:38:11 venux kernel: PIIX4: chipset revision 1
+Oct 19 22:38:11 venux cardmgr[963]: starting, version is 3.1.31
+Oct 19 22:38:11 venux kernel: PIIX4: not 100%% native mode: will probe irqs later
+oct 19 22:38:11 venux rc: Starting pcmcia:  succeeded
+Oct 19 22:38:11 venux kernel:     ide0: BM-DMA at 0xfcd0-0xfcd7, BIOS settings: hda:DMA, hdb:pio
+Oct 19 22:38:11 venux cardmgr[963]: watching 2 sockets
+Oct 19 22:38:11 venux kernel:     ide1: BM-DMA at 0xfcd8-0xfcdf, BIOS settings: hdc:DMA, hdd:pio
+Oct 19 22:38:11 venux cardmgr[963]: Card Services release does not match
+Oct 19 22:38:11 venux kernel: hda: IBM-DCYA-214000, ATA DISK drive
+Oct 19 22:38:11 venux cardmgr[963]: could not adjust resource: IO ports 0xc00-0xcff: Device or resource busy
+Oct 19 22:38:11 venux kernel: blk: queue c03beb20, I/O limit 4095Mb (mask 0xffffffff)
+Oct 19 22:38:11 venux cardmgr[963]: could not adjust resource: IO ports 0x100-0x4ff: Device or resource busy
+Oct 19 22:38:11 venux kernel: hdc: TOSHIBA CD-ROM XM-1902B, ATAPI CD/DVD-ROM drive
+Oct 19 22:38:11 venux cardmgr[963]: could not adjust resource: memory 0xc0000-0xfffff: Input/output error
+Oct 19 22:38:11 venux kernel: ide0 at 0x1f0-0x1f7,0x3f6 on irq 14
+Oct 19 22:38:11 venux cardmgr[963]: could not adjust resource: memory 0x60000000-0x60ffffff: Input/output error
+Oct 19 22:38:11 venux kernel: ide1 at 0x170-0x177,0x376 on irq 15
+Oct 19 22:38:11 venux cardmgr[963]: could not adjust resource: memory 0xa0000000-0xa0ffffff: Input/output error
+Oct 19 22:38:11 venux kernel: hda: attached ide-disk driver.
+Oct 19 22:38:11 venux cardmgr[963]: could not adjust resource: IO ports 0xa00-0xaff: Device or resource busy
+Oct 19 22:38:11 venux kernel: hda: host protected area => 1
+Oct 19 22:38:11 venux kernel: hda: 27609120 sectors (14136 MB) w/420KiB Cache, CHS=1826/240/63, UDMA(33)
+Oct 19 22:38:11 venux kernel: hdc: attached ide-cdrom driver.
+Oct 19 22:38:11 venux kernel: hdc: ATAPI 24X CD-ROM drive, 128kB Cache, DMA
+Oct 19 22:38:11 venux kernel: Uniform CD-ROM driver Revision: 3.12
+Oct 19 22:38:11 venux kernel: Partition check:
+Oct 19 22:38:11 venux kernel:  hda: hda1 hda2 < hda5 hda6 hda7 hda8 >
+Oct 19 22:38:11 venux kernel: SCSI subsystem driver Revision: 1.00
+Oct 19 22:38:11 venux kernel: kmod: failed to exec /sbin/modprobe -s -k scsi_hostadapter, errno = 2
+Oct 19 22:38:11 venux last message repeated 2 times
+Oct 19 22:38:11 venux kernel: raw1394: /dev/raw1394 device initialized
+Oct 19 22:38:11 venux kernel: maestro: version 0.15 time 10:31:15 Sep  1 2003
+Oct 19 22:38:11 venux kernel: PCI: Found IRQ 5 for device 00:08.0
+Oct 19 22:38:11 venux kernel: maestro: Configuring ESS Maestro 2 found at IO 0xF800 IRQ 5
+Oct 19 22:38:11 venux kernel: maestro:  subvendor id: 0x00851028
+Oct 19 22:38:11 venux kernel: maestro: not attempting power management.
+oct 19 22:38:11 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+Oct 19 22:38:11 venux kernel: maestro: AC97 Codec detected: v: 0x41445303 caps: 0x400 pwr: 0xf
+Oct 19 22:38:11 venux kernel: maestro: 1 channels configured.
+Oct 19 22:38:12 venux kernel: Linux Kernel Card Services 3.1.22
+Oct 19 22:38:12 venux kernel:   options:  [pci] [cardbus] [pm]
+Oct 19 22:38:12 venux kernel: PCI: Found IRQ 11 for device 00:04.0
+Oct 19 22:38:12 venux kernel: PCI: Sharing IRQ 11 with 01:00.0
+Oct 19 22:38:12 venux kernel: PCI: Found IRQ 11 for device 00:04.1
+Oct 19 22:38:12 venux kernel: usb.c: registered new driver hub
+Oct 19 22:38:12 venux kernel: Yenta IRQ list 0698, PCI irq11
+Oct 19 22:38:12 venux kernel: Socket status: 30000006
+Oct 19 22:38:12 venux kernel: Yenta IRQ list 0698, PCI irq11
+Oct 19 22:38:12 venux kernel: Socket status: 30000006
+Oct 19 22:38:12 venux kernel: host/usb-uhci.c: $Revision: 1.275 $ time 10:31:57 Sep  1 2003
+Oct 19 22:38:12 venux kernel: host/usb-uhci.c: High bandwidth mode enabled
+Oct 19 22:38:12 venux kernel: PCI: Found IRQ 11 for device 00:07.2
+Oct 19 22:38:12 venux kernel: host/usb-uhci.c: USB UHCI at I/O 0xfce0, IRQ 11
+Oct 19 22:38:12 venux kernel: host/usb-uhci.c: Detected 2 ports
+Oct 19 22:38:12 venux kernel: usb.c: new USB bus registered, assigned bus number 1
+Oct 19 22:38:12 venux kernel: hub.c: USB hub found
+Oct 19 22:38:12 venux kernel: hub.c: 2 ports detected
+Oct 19 22:38:12 venux kernel: host/usb-uhci.c: v1.275:USB Universal Host Controller Interface driver
+Oct 19 22:38:12 venux kernel: Initializing USB Mass Storage driver...
+oct 19 22:38:12 venux apmd: Démarrage de apmd  succeeded
+Oct 19 22:38:12 venux kernel: usb.c: registered new driver usb-storage
+Oct 19 22:38:12 venux kernel: USB Mass Storage support registered.
+Oct 19 22:38:12 venux kernel: Linux video capture interface: v1.00
+Oct 19 22:38:12 venux kernel: NET4: Linux TCP/IP 1.0 for NET4.0
+Oct 19 22:38:12 venux kernel: IP Protocols: ICMP, UDP, TCP, IGMP
+Oct 19 22:38:12 venux kernel: IP: routing cache hash table of 1024 buckets, 8Kbytes
+Oct 19 22:38:12 venux kernel: TCP: Hash tables configured (established 8192 bind 16384)
+Oct 19 22:38:12 venux kernel: NET4: Unix domain sockets 1.0/SMP for Linux NET4.0.
+Oct 19 22:38:12 venux kernel: kjournald starting.  Commit interval 5 seconds
+Oct 19 22:38:12 venux kernel: EXT3-fs: mounted filesystem with ordered data mode.
+Oct 19 22:38:12 venux kernel: VFS: Mounted root (ext3 filesystem) readonly.
+Oct 19 22:38:12 venux kernel: Freeing unused kernel memory: 116k freed
+Oct 19 22:38:12 venux kernel: EXT3 FS 2.4-0.9.19, 19 August 2002 on ide0(3,5), internal journal
+Oct 19 22:38:12 venux kernel: Adding Swap: 136040k swap-space (priority -1)
+Oct 19 22:38:12 venux kernel: parport0: PC-style at 0x378 [PCSPP(,...)]
+Oct 19 22:38:12 venux kernel: cs: IO port probe 0x0c00-0x0cff: clean.
+Oct 19 22:38:12 venux kernel: cs: IO port probe 0x0100-0x04ff: excluding 0x378-0x37f 0x4d0-0x4d7
+Oct 19 22:38:12 venux kernel: cs: IO port probe 0x0a00-0x0aff: clean.
+Oct 19 22:38:12 venux apmd[987]: Version 3.0.2 (APM BIOS 1.2, Linux driver 1.16)
+oct 19 22:38:13 venux autofs: automount startup succeeded
+Oct 19 22:38:14 venux apmd[987]: Charge: * * * (78% 2:36)
+oct 19 22:38:14 venux sshd:  succeeded
+Oct 19 22:38:15 venux xinetd[1037]: xinetd Version 2.3.11 started with libwrap loadavg options compiled in.
+Oct 19 22:38:15 venux xinetd[1037]: Started working: 1 available service
+Oct 19 22:38:18 venux xinetd: Démarrage de xinetd  succeeded
+oct 19 22:38:18 venux vsftpd: Démarrage de true  succeeded
+oct 19 22:38:19 venux gpm: Démarrage de gpm  succeeded
+oct 19 22:38:19 venux crond: Démarrage de crond  succeeded
+Oct 19 22:38:20 venux kernel: parport0: PC-style at 0x378 [PCSPP(,...)]
+Oct 19 22:38:20 venux kernel: lp0: using parport0 (polling).
+Oct 19 22:38:20 venux modprobe: modprobe: Can't locate module char-major-188
+Oct 19 22:38:21 venux last message repeated 15 times
+oct 19 22:38:21 venux cups: Démarrage de cupsd  succeeded
+oct 19 22:38:22 venux xfs: Démarrage de xfs  succeeded
+oct 19 22:38:22 venux anacron: Démarrage de anacron  succeeded
+oct 19 22:38:22 venux atd: Démarrage de atd  succeeded
+Oct 19 22:38:23 venux xfs: ignoring font path element /usr/X11R6/lib/X11/fonts/cyrillic (unreadable) 
+Oct 19 22:38:35 venux modprobe: modprobe: Can't locate module char-major-13
+Oct 19 22:40:21 venux xdm(pam_unix)[1171]: session opened for user ccb by (uid=0)
+Oct 19 22:40:47 venux modprobe: modprobe: Can't locate module nls_cp437
+oct 19 22:43:49 venux network: Arrêt de l'interface de loopback : succeeded
+Oct 19 22:43:50 venux apmd[987]: System Suspend
+oct 20 08:25:28 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+oct 20 08:25:28 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+Oct 20 08:25:28 venux apmd[987]: Normal Resume after 09:41:38 (99% 3:18) Battery power
+Oct 20 08:25:44 venux apmd[987]: Now using AC Power
+Oct 20 08:25:44 venux apmd[987]: Charge: * * * (99% 3:18)
+Oct 20 13:09:28 venux kernel: cs: cb_alloc(bus 6): vendor 0x10b7, device 0x5157
+Oct 20 13:09:28 venux kernel: PCI: Enabling device 06:00.0 (0000 -> 0003)
+Oct 20 13:09:28 venux kernel: 3c59x: Donald Becker and others. www.scyld.com/network/vortex.html
+Oct 20 13:09:28 venux kernel: See Documentation/networking/vortex.txt
+Oct 20 13:09:28 venux kernel: 06:00.0: 3Com PCI 3CCFE575BT Cyclone CardBus at 0x4800. Vers LK1.1.16
+Oct 20 13:09:28 venux kernel:  00:50:04:8c:7a:ed, IRQ 11
+Oct 20 13:09:28 venux kernel:   product code 5458 rev 07.1 date 06-23-99
+Oct 20 13:09:28 venux kernel: 06:00.0: CardBus functions mapped 11000080->c8842080
+Oct 20 13:09:28 venux kernel:   8K byte-wide RAM 5:3 Rx:Tx split, MII interface.
+Oct 20 13:09:28 venux kernel:   MII transceiver found at address 0, status 7809.
+Oct 20 13:09:28 venux kernel:   Enabling bus-master transmits and whole-frame receives.
+Oct 20 13:09:29 venux kernel: 06:00.0: scatter/gather enabled. h/w checksums enabled
+Oct 20 13:09:29 venux cardmgr[963]: socket 1: CardBus hotplug device
+Oct 20 13:09:29 venux /etc/hotplug/net.agent: invoke ifup eth0
+Oct 20 13:09:29 venux /etc/hotplug/pci.agent: ... no modules for PCI slot 06:00.0
+Oct 20 13:09:33 venux kernel: spurious 8259A interrupt: IRQ7.
+Oct 20 13:12:51 venux kernel: cs: cb_free(bus 6)
+Oct 20 13:12:51 venux /etc/hotplug/net.agent: NET unregister event not supported
+Oct 20 13:12:51 venux /etc/hotplug/pci.agent: PCI remove event not supported
+Oct 20 13:12:56 venux kernel: cs: cb_alloc(bus 6): vendor 0x10b7, device 0x5157
+Oct 20 13:12:56 venux kernel: PCI: Enabling device 06:00.0 (0000 -> 0003)
+Oct 20 13:12:56 venux kernel: See Documentation/networking/vortex.txt
+Oct 20 13:12:56 venux kernel: 06:00.0: 3Com PCI 3CCFE575BT Cyclone CardBus at 0x4800. Vers LK1.1.16
+Oct 20 13:12:56 venux kernel:  06:5D:04:8c:7a:ed, IRQ 11
+Oct 20 13:12:56 venux kernel:   product code 5458 rev 07.1 date 06-23-99
+Oct 20 13:12:56 venux kernel: 06:00.0: CardBus functions mapped 11000080->c8844080
+Oct 20 13:12:56 venux kernel:   8K byte-wide RAM 5:3 Rx:Tx split, MII interface.
+Oct 20 13:12:56 venux kernel:   MII transceiver found at address 0, status 7809.
+Oct 20 13:12:56 venux kernel:   Enabling bus-master transmits and whole-frame receives.
+Oct 20 13:12:56 venux kernel: 06:00.0: scatter/gather enabled. h/w checksums enabled
+Oct 20 13:12:56 venux cardmgr[963]: socket 1: CardBus hotplug device
+Oct 20 13:12:56 venux /etc/hotplug/net.agent: invoke ifup eth0
+Oct 20 13:12:57 venux /etc/hotplug/pci.agent: ... no modules for PCI slot 06:00.0
+Oct 20 13:13:18 venux kernel: eth0: Setting promiscuous mode.
+Oct 20 13:13:18 venux kernel: device eth0 entered promiscuous mode
+Oct 20 13:13:29 venux kernel: device eth0 left promiscuous mode
+Oct 20 13:13:52 venux kernel: eth0: Setting promiscuous mode.
+Oct 20 13:13:52 venux kernel: device eth0 entered promiscuous mode
+Oct 20 13:13:58 venux kernel: device eth0 left promiscuous mode
+oct 20 13:14:16 venux su(pam_unix)[2398]: session opened for user root by ccb(uid=500)
+Oct 20 13:15:45 venux kernel: hdc: DMA interrupt recovery
+Oct 20 13:15:45 venux kernel: hdc: lost interrupt
+Oct 20 13:15:45 venux kernel: Interleaved files not (yet) supported.
+Oct 20 13:15:45 venux kernel: File unit size != 0 for ISO file (57344).
+Oct 20 13:15:45 venux kernel: hdc: status error: status=0x58 { DriveReady SeekComplete DataRequest }
+Oct 20 13:15:45 venux kernel: hdc: status error: error=0x00
+Oct 20 13:15:45 venux kernel: hdc: drive not ready for command
+Oct 20 13:15:57 venux kernel: hdc: irq timeout: status=0xd0 { Busy }
+Oct 20 13:15:57 venux kernel: hdc: irq timeout: error=0x00
+Oct 20 13:15:57 venux kernel: hdc: DMA disabled
+Oct 20 13:15:57 venux kernel: hdc: ATAPI reset complete
+Oct 20 13:24:38 venux kernel: cs: cb_free(bus 6)
+Oct 20 13:24:38 venux /etc/hotplug/net.agent: NET unregister event not supported
+Oct 20 13:24:38 venux /etc/hotplug/pci.agent: PCI remove event not supported
+oct 20 13:25:00 venux su(pam_unix)[1766]: session closed for user root
+Oct 20 15:22:22 venux init: Switching to runlevel: 0
+Oct 20 15:22:22 venux xdm(pam_unix)[1171]: session closed for user ccb
+oct 20 15:22:23 venux atd: Arrêt de atd succeeded
+oct 20 15:22:23 venux rc: Stopping keytable:  succeeded
+oct 20 15:22:23 venux cups: Arrêt de cupsd succeeded
+Oct 20 15:22:23 venux xfs[1133]: terminating 
+oct 20 15:22:24 venux xfs: Arrêt de xfs succeeded
+oct 20 15:22:24 venux gpm: Arrêt de gpm succeeded
+oct 20 15:22:24 venux sshd: sshd -TERM succeeded
+oct 20 15:22:24 venux vsftpd: Arrêt de vsftpd succeeded
+Oct 20 15:22:24 venux xinetd[1037]: Exiting...
+oct 20 15:22:24 venux xinetd: Arrêt de xinetd succeeded
+oct 20 15:22:25 venux crond: Arrêt de crond succeeded
+Oct 20 15:22:25 venux apmd[987]: Exiting
+oct 20 15:22:26 venux apmd: Arrêt de apmd succeeded
+oct 20 15:22:26 venux dd: 1+0 enregistrements lus.
+oct 20 15:22:26 venux dd: 1+0 enregistrements écrits.
+oct 20 15:22:26 venux random: Sauvegarde du random seed : succeeded
+oct 20 15:22:26 venux portmap: Arrêt de portmap succeeded
+Oct 20 15:22:26 venux kernel: Kernel logging (proc) stopped.
+Oct 20 15:22:26 venux kernel: Kernel log daemon terminating.
+oct 20 15:22:28 venux syslog: Arrêt de klogd succeeded
+Oct 20 15:22:28 venux exiting on signal 15
+Oct 20 15:24:02 venux syslogd 1.4.1: restart.
+oct 20 15:24:02 venux syslog: Démarrage de syslogd  succeeded
+Oct 20 15:24:02 venux kernel: klogd 1.4.1, log source = /proc/kmsg started.
+Oct 20 15:24:02 venux kernel: Linux version 2.4.20-18.9 (bhcompile@stripples.devel.redhat.com) (gcc version 3.2.2 20030222 (Red Hat Linux 3.2.2-5)) #1 Thu May 29 08:37:23 EDT 2003
+Oct 20 15:24:02 venux kernel: BIOS-provided physical RAM map:
+Oct 20 15:24:02 venux kernel:  BIOS-e820: 0000000000000000 - 000000000009f800 (usable)
+Oct 20 15:24:02 venux kernel:  BIOS-e820: 000000000009f800 - 00000000000a0000 (reserved)
+Oct 20 15:24:02 venux kernel:  BIOS-e820: 00000000000eb800 - 0000000000100000 (reserved)
+Oct 20 15:24:02 venux kernel:  BIOS-e820: 0000000000100000 - 0000000008000000 (usable)
+Oct 20 15:24:02 venux kernel:  BIOS-e820: 00000000fffeb800 - 0000000100000000 (reserved)
+Oct 20 15:24:02 venux kernel: 128MB LOWMEM available.
+Oct 20 15:24:02 venux kernel: On node 0 totalpages: 32768
+Oct 20 15:24:02 venux kernel: zone(0): 4096 pages.
+Oct 20 15:24:02 venux kernel: zone(1): 28672 pages.
+oct 20 15:24:02 venux syslog: Démarrage de klogd  succeeded
+Oct 20 15:24:02 venux kernel: zone(2): 0 pages.
+Oct 20 15:24:03 venux kernel: Kernel command line: auto BOOT_IMAGE=linux-2.4.20-rh ro root=305 BOOT_FILE=/boot/vmlinuz-2.4.20-18.9
+Oct 20 15:24:03 venux kernel: Initializing CPU#0
+Oct 20 15:24:03 venux kernel: Detected 400.014 MHz processor.
+Oct 20 15:24:03 venux kernel: Console: colour VGA+ 80x25
+Oct 20 15:24:03 venux kernel: Calibrating delay loop... 797.90 BogoMIPS
+Oct 20 15:24:03 venux kernel: Memory: 125104k/131072k available (1213k kernel code, 4556k reserved, 1009k data, 112k init, 0k highmem)
+oct 20 15:24:03 venux portmap: Démarrage de portmap  succeeded
+Oct 20 15:24:03 venux kernel: Dentry cache hash table entries: 16384 (order: 5, 131072 bytes)
+Oct 20 15:24:03 venux kernel: Inode cache hash table entries: 8192 (order: 4, 65536 bytes)
+Oct 20 15:24:03 venux kernel: Mount cache hash table entries: 512 (order: 0, 4096 bytes)
+oct 20 15:24:03 venux keytable: Chargement de la configuration clavier :
+Oct 20 15:24:03 venux kernel: Buffer-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Oct 20 15:24:03 venux kernel: Page-cache hash table entries: 32768 (order: 5, 131072 bytes)
+Oct 20 15:24:03 venux kernel: CPU: L1 I cache: 16K, L1 D cache: 16K
+Oct 20 15:24:03 venux kernel: CPU: L2 cache: 128K
+Oct 20 15:24:03 venux kernel: Intel machine check architecture supported.
+Oct 20 15:24:03 venux kernel: Intel machine check reporting enabled on CPU#0.
+oct 20 15:24:03 venux keytable: 
+oct 20 15:24:01 venux network: Configuration des paramètres réseau : succeeded 
+oct 20 15:24:04 venux keytable: 
+Oct 20 15:24:04 venux kernel: CPU: Intel Celeron (Mendocino) stepping 0a
+oct 20 15:24:04 venux rc: Starting keytable:  succeeded
+Oct 20 15:24:04 venux kernel: Enabling fast FPU save and restore... done.
+Oct 20 15:24:04 venux kernel: Checking 'hlt' instruction... OK.
+Oct 20 15:24:04 venux kernel: Checking for popad bug... OK.
+Oct 20 15:24:04 venux kernel: POSIX conformance testing by UNIFIX
+Oct 20 15:24:04 venux kernel: mtrr: v1.40 (20010327) Richard Gooch (rgooch@atnf.csiro.au)
+Oct 20 15:24:04 venux kernel: mtrr: detected mtrr type: Intel
+Oct 20 15:24:04 venux kernel: PCI: PCI BIOS revision 2.10 entry at 0xfd9d3, last bus=1
+Oct 20 15:24:04 venux kernel: PCI: Using configuration type 1
+Oct 20 15:24:04 venux kernel: PCI: Probing PCI hardware
+oct 20 15:24:04 venux random: Initialisation du générateur de nombre aléatoire : succeeded
+Oct 20 15:24:04 venux kernel: PCI: Using IRQ router PIIX [8086/7110] at 00:07.0
+Oct 20 15:24:04 venux kernel: PCI: Found IRQ 11 for device 00:04.0
+Oct 20 15:24:04 venux kernel: PCI: Sharing IRQ 11 with 01:00.0
+Oct 20 15:24:04 venux kernel: PCI: Found IRQ 11 for device 00:04.1
+Oct 20 15:24:04 venux kernel: Limiting direct PCI/PCI transfers.
+oct 20 15:24:04 venux pcmcia: Starting PCMCIA services:
+Oct 20 15:24:05 venux kernel: isapnp: Scanning for PnP cards...
+Oct 20 15:24:05 venux kernel: isapnp: No Plug & Play device found
+Oct 20 15:24:05 venux kernel: Linux NET4.0 for Linux 2.4
+Oct 20 15:24:05 venux kernel: Based upon Swansea University Computer Society NET3.039
+Oct 20 15:24:05 venux kernel: Initializing RT netlink socket
+Oct 20 15:24:05 venux kernel: apm: BIOS version 1.2 Flags 0x03 (Driver version 1.16)
+Oct 20 15:24:05 venux kernel: Starting kswapd
+Oct 20 15:24:05 venux kernel: VFS: Disk quotas vdquot_6.5.1
+Oct 20 15:24:05 venux kernel: pty: 512 Unix98 ptys configured
+Oct 20 15:24:05 venux kernel: Serial driver version 5.05c (2001-07-08) with MANY_PORTS MULTIPORT SHARE_IRQ SERIAL_PCI ISAPNP enabled
+Oct 20 15:24:05 venux kernel: ttyS0 at 0x03f8 (irq = 4) is a 16550A
+Oct 20 15:24:05 venux kernel: Real Time Clock Driver v1.10e
+Oct 20 15:24:05 venux kernel: Floppy drive(s): fd0 is 1.44M
+Oct 20 15:24:05 venux kernel: FDC 0 is a post-1991 82077
+Oct 20 15:24:05 venux kernel: NET4: Frame Diverter 0.46
+Oct 20 15:24:05 venux kernel: RAMDISK driver initialized: 16 RAM disks of 4096K size 1024 blocksize
+Oct 20 15:24:05 venux kernel: Uniform Multi-Platform E-IDE driver Revision: 7.00beta3-.2.4
+Oct 20 15:24:05 venux kernel: ide: Assuming 33MHz system bus speed for PIO modes; override with idebus=xx
+Oct 20 15:24:05 venux kernel: PIIX4: IDE controller at PCI slot 00:07.1
+Oct 20 15:24:05 venux kernel: PIIX4: chipset revision 1
+Oct 20 15:24:05 venux kernel: PIIX4: not 100%% native mode: will probe irqs later
+Oct 20 15:24:05 venux kernel:     ide0: BM-DMA at 0xfcd0-0xfcd7, BIOS settings: hda:DMA, hdb:pio
+Oct 20 15:24:05 venux kernel:     ide1: BM-DMA at 0xfcd8-0xfcdf, BIOS settings: hdc:DMA, hdd:pio
+Oct 20 15:24:05 venux kernel: hda: IBM-DCYA-214000, ATA DISK drive
+Oct 20 15:24:05 venux kernel: blk: queue c03952e0, I/O limit 4095Mb (mask 0xffffffff)
+Oct 20 15:24:05 venux kernel: hdc: TOSHIBA CD-ROM XM-1902B, ATAPI CD/DVD-ROM drive
+Oct 20 15:24:05 venux kernel: ide0 at 0x1f0-0x1f7,0x3f6 on irq 14
+Oct 20 15:24:05 venux kernel: ide1 at 0x170-0x177,0x376 on irq 15
+Oct 20 15:24:05 venux kernel: hda: attached ide-disk driver.
+Oct 20 15:24:05 venux kernel: hda: host protected area => 1
+Oct 20 15:24:05 venux kernel: hda: 27609120 sectors (14136 MB) w/420KiB Cache, CHS=1826/240/63, UDMA(33)
+Oct 20 15:24:05 venux kernel: ide-floppy driver 0.99.newide
+Oct 20 15:24:05 venux kernel: Partition check:
+Oct 20 15:24:05 venux kernel:  hda: hda1 hda2 < hda5 hda6 hda7 hda8 >
+Oct 20 15:24:05 venux kernel: ide-floppy driver 0.99.newide
+Oct 20 15:24:05 venux kernel: md: md driver 0.90.0 MAX_MD_DEVS=256, MD_SB_DISKS=27
+Oct 20 15:24:05 venux kernel: md: Autodetecting RAID arrays.
+Oct 20 15:24:05 venux kernel: md: autorun ...
+Oct 20 15:24:05 venux kernel: md: ... autorun DONE.
+Oct 20 15:24:05 venux kernel: NET4: Linux TCP/IP 1.0 for NET4.0
+Oct 20 15:24:05 venux kernel: IP Protocols: ICMP, UDP, TCP, IGMP
+Oct 20 15:24:05 venux kernel: IP: routing cache hash table of 1024 buckets, 8Kbytes
+Oct 20 15:24:05 venux kernel: TCP: Hash tables configured (established 8192 bind 16384)
+Oct 20 15:24:05 venux kernel: Linux IP multicast router 0.06 plus PIM-SM
+Oct 20 15:24:05 venux kernel: NET4: Unix domain sockets 1.0/SMP for Linux NET4.0.
+Oct 20 15:24:06 venux kernel: RAMDISK: Compressed image found at block 0
+Oct 20 15:24:06 venux kernel: Freeing initrd memory: 140k freed
+Oct 20 15:24:06 venux kernel: VFS: Mounted root (ext2 filesystem).
+Oct 20 15:24:06 venux kernel: Journalled Block Device driver loaded
+Oct 20 15:24:06 venux kernel: kjournald starting.  Commit interval 5 seconds
+Oct 20 15:24:06 venux kernel: EXT3-fs: mounted filesystem with ordered data mode.
+Oct 20 15:24:06 venux kernel: Freeing unused kernel memory: 112k freed
+oct 20 15:24:06 venux pcmcia:  cardmgr.
+Oct 20 15:24:06 venux kernel: usb.c: registered new driver usbdevfs
+Oct 20 15:24:06 venux /etc/hotplug/pci.agent: Setup 3c59x for PCI slot 06:00.0
+Oct 20 15:24:06 venux cardmgr[1482]: starting, version is 3.1.31
+oct 20 15:24:06 venux rc: Starting pcmcia:  succeeded
+Oct 20 15:24:06 venux kernel: usb.c: registered new driver hub
+Oct 20 15:24:06 venux cardmgr[1482]: watching 2 sockets
+Oct 20 15:24:07 venux /etc/hotplug/net.agent: invoke ifup eth0
+oct 20 15:24:07 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+Oct 20 15:24:07 venux kernel: usb-uhci.c: $Revision: 1.275 $ time 08:59:26 May 29 2003
+Oct 20 15:24:07 venux cardmgr[1482]: Card Services release does not match
+Oct 20 15:24:07 venux apmd[1579]: Version 3.0.2 (APM BIOS 1.2, Linux driver 1.16)
+oct 20 15:24:07 venux apmd: Démarrage de apmd  succeeded
+Oct 20 15:24:07 venux kernel: usb-uhci.c: High bandwidth mode enabled
+oct 20 15:24:07 venux devlabel: devlabel service started/restarted
+Oct 20 15:24:07 venux cardmgr[1482]: socket 1: CardBus hotplug device
+Oct 20 15:24:08 venux kernel: PCI: Found IRQ 11 for device 00:07.2
+oct 20 15:24:08 venux autofs: automount startup succeeded
+Oct 20 15:24:08 venux kernel: usb-uhci.c: USB UHCI at I/O 0xfce0, IRQ 11
+Oct 20 15:24:09 venux kernel: usb-uhci.c: Detected 2 ports
+Oct 20 15:24:09 venux kernel: usb.c: new USB bus registered, assigned bus number 1
+Oct 20 15:24:09 venux kernel: hub.c: USB hub found
+Oct 20 15:24:09 venux kernel: hub.c: 2 ports detected
+Oct 20 15:24:09 venux apmd[1579]: Battery: * * * (100% 3:20)
+Oct 20 15:24:09 venux kernel: usb-uhci.c: v1.275:USB Universal Host Controller Interface driver
+Oct 20 15:24:09 venux kernel: usb.c: registered new driver hiddev
+Oct 20 15:24:09 venux kernel: usb.c: registered new driver hid
+Oct 20 15:24:10 venux kernel: hid-core.c: v1.8.1 Andreas Gal, Vojtech Pavlik <vojtech@suse.cz>
+Oct 20 15:24:10 venux kernel: hid-core.c: USB HID support drivers
+Oct 20 15:24:10 venux kernel: mice: PS/2 mouse device common for all mice
+Oct 20 15:24:10 venux kernel: EXT3 FS 2.4-0.9.19, 19 August 2002 on ide0(3,5), internal journal
+Oct 20 15:24:10 venux kernel: Adding Swap: 136040k swap-space (priority -1)
+Oct 20 15:24:10 venux kernel: parport0: PC-style at 0x378 [PCSPP,TRISTATE,EPP]
+Oct 20 15:24:10 venux kernel: ip_tables: (C) 2000-2002 Netfilter core team
+Oct 20 15:24:10 venux kernel: Linux Kernel Card Services 3.1.22
+Oct 20 15:24:10 venux kernel:   options:  [pci] [cardbus] [pm]
+Oct 20 15:24:10 venux kernel: PCI: Found IRQ 11 for device 00:04.0
+Oct 20 15:24:11 venux kernel: PCI: Sharing IRQ 11 with 01:00.0
+Oct 20 15:24:11 venux kernel: PCI: Found IRQ 11 for device 00:04.1
+Oct 20 15:24:11 venux kernel: Yenta IRQ list 0698, PCI irq11
+Oct 20 15:24:11 venux kernel: Socket status: 30000006
+Oct 20 15:24:11 venux kernel: Yenta IRQ list 0698, PCI irq11
+Oct 20 15:24:11 venux kernel: Socket status: 30000020
+Oct 20 15:24:11 venux kernel: cs: cb_alloc(bus 6): vendor 0x10b7, device 0x5157
+Oct 20 15:24:11 venux kernel: PCI: Enabling device 06:00.0 (0000 -> 0003)
+Oct 20 15:24:11 venux kernel: 3c59x: Donald Becker and others. www.scyld.com/network/vortex.html
+oct 20 15:24:11 venux sshd:  succeeded
+Oct 20 15:24:11 venux kernel: See Documentation/networking/vortex.txt
+Oct 20 15:24:12 venux kernel: 06:00.0: 3Com PCI 3CCFE575BT Cyclone CardBus at 0x4800. Vers LK1.1.18-ac
+Oct 20 15:24:12 venux kernel:  00:50:04:8c:7a:ed, IRQ 11
+Oct 20 15:24:12 venux kernel:   product code 5458 rev 07.1 date 06-23-99
+Oct 20 15:24:12 venux kernel: 06:00.0: CardBus functions mapped 11000080->c8886080
+Oct 20 15:24:13 venux kernel:   8K byte-wide RAM 5:3 Rx:Tx split, MII interface.
+Oct 20 15:24:13 venux kernel:   MII transceiver found at address 0, status 7809.
+Oct 20 15:24:13 venux kernel:   Enabling bus-master transmits and whole-frame receives.
+Oct 20 15:24:13 venux kernel: 06:00.0: scatter/gather enabled. h/w checksums enabled
+Oct 20 15:24:13 venux kernel: ip_tables: (C) 2000-2002 Netfilter core team
+Oct 20 15:24:13 venux kernel: cs: IO port probe 0x0c00-0x0cff: clean.
+Oct 20 15:24:13 venux kernel: cs: IO port probe 0x0100-0x04ff: excluding 0x378-0x37f 0x4d0-0x4d7
+Oct 20 15:24:13 venux kernel: cs: IO port probe 0x0a00-0x0aff: clean.
+Oct 20 15:24:14 venux dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4
+Oct 20 15:24:14 venux kernel: spurious 8259A interrupt: IRQ7.
+Oct 20 15:24:14 venux xinetd[2146]: xinetd Version 2.3.11 started with libwrap loadavg options compiled in.
+Oct 20 15:24:14 venux xinetd[2146]: Started working: 1 available service
+Oct 20 15:24:14 venux dhclient: DHCPOFFER from 149.236.60.66
+Oct 20 15:24:14 venux dhclient: DHCPREQUEST on eth0 to 255.255.255.255 port 67
+Oct 20 15:24:14 venux dhclient: DHCPACK from 149.236.60.66
+Oct 20 15:24:14 venux dhclient: bound to 149.236.66.193 -- renewal in 42482 seconds.
+Oct 20 15:24:15 venux xinetd: Démarrage de xinetd  succeeded
+oct 20 15:24:16 venux vsftpd: Démarrage de true  succeeded
+oct 20 15:24:16 venux gpm: Démarrage de gpm  succeeded
+oct 20 15:24:17 venux crond: Démarrage de crond  succeeded
+Oct 20 15:24:18 venux kernel: parport0: PC-style at 0x378 [PCSPP,TRISTATE,EPP]
+Oct 20 15:24:18 venux kernel: lp0: using parport0 (polling).
+Oct 20 15:24:18 venux kernel: lp0: console ready
+Oct 20 15:24:18 venux modprobe: modprobe: Can't locate module char-major-188
+Oct 20 15:24:19 venux last message repeated 15 times
+oct 20 15:24:19 venux cups: Démarrage de cupsd  succeeded
+oct 20 15:24:20 venux xfs: Démarrage de xfs  succeeded
+oct 20 15:24:21 venux anacron: Démarrage de anacron  succeeded
+oct 20 15:24:21 venux atd: Démarrage de atd  succeeded
+Oct 20 15:24:22 venux xfs: ignoring font path element /usr/X11R6/lib/X11/fonts/cyrillic (unreadable) 
+Oct 20 15:24:43 venux xdm(pam_unix)[2328]: session opened for user ccb by (uid=0)
+Oct 20 17:00:51 venux xdm(pam_unix)[2328]: session closed for user ccb
+Oct 20 17:00:56 venux kernel: cs: cb_free(bus 6)
+Oct 20 17:00:57 venux /etc/hotplug/pci.agent: PCI remove event not supported
+Oct 20 17:00:57 venux /etc/hotplug/net.agent: NET unregister event not supported
+Oct 20 17:00:57 venux dhclient: receive_packet failed on eth0: Network is down
+oct 20 17:01:11 venux network: Arrêt de l'interface de loopback : succeeded
+Oct 20 17:01:12 venux apmd[1579]: System Suspend
+oct 20 17:01:26 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+oct 20 17:01:26 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+Oct 20 17:01:27 venux apmd[1579]: Normal Resume after 00:00:15 (98% 3:16) Battery power
+oct 20 17:01:30 venux network: Arrêt de l'interface de loopback : succeeded
+Oct 20 17:01:31 venux apmd[1579]: System Suspend
+oct 20 17:25:05 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+oct 20 17:25:05 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+Oct 20 17:25:07 venux apmd[1579]: Normal Resume after 00:23:36 (98% 3:16) AC power
+Oct 20 17:30:26 venux syslogd 1.4.1: restart.
+oct 20 17:30:26 venux syslog: Démarrage de syslogd  succeeded
+oct 20 17:30:26 venux syslog: Démarrage de klogd  succeeded
+Oct 20 17:30:26 venux kernel: klogd 1.4.1, log source = /proc/kmsg started.
+Oct 20 17:30:26 venux kernel: Linux version 2.4.21 (root@venux) (version gcc 3.2.2 20030222 (Red Hat Linux 3.2.2-5)) #2 lun sep 1 10:23:41 CEST 2003
+Oct 20 17:30:26 venux kernel: BIOS-provided physical RAM map:
+Oct 20 17:30:26 venux kernel:  BIOS-e820: 0000000000000000 - 000000000009f800 (usable)
+Oct 20 17:30:26 venux kernel:  BIOS-e820: 000000000009f800 - 00000000000a0000 (reserved)
+Oct 20 17:30:26 venux kernel:  BIOS-e820: 00000000000eb800 - 0000000000100000 (reserved)
+Oct 20 17:30:26 venux kernel:  BIOS-e820: 0000000000100000 - 0000000008000000 (usable)
+Oct 20 17:30:26 venux kernel:  BIOS-e820: 00000000fffeb800 - 0000000100000000 (reserved)
+Oct 20 17:30:26 venux kernel: 128MB LOWMEM available.
+Oct 20 17:30:26 venux kernel: On node 0 totalpages: 32768
+Oct 20 17:30:26 venux kernel: zone(0): 4096 pages.
+Oct 20 17:30:26 venux kernel: zone(1): 28672 pages.
+Oct 20 17:30:26 venux kernel: zone(2): 0 pages.
+Oct 20 17:30:26 venux kernel: Kernel command line: auto BOOT_IMAGE=linux-2.4.21 ro root=305 BOOT_FILE=/boot/vmlinuz-2.4.21
+Oct 20 17:30:26 venux kernel: Initializing CPU#0
+Oct 20 17:30:26 venux kernel: Detected 400.013 MHz processor.
+Oct 20 17:30:26 venux kernel: Console: colour VGA+ 80x25
+Oct 20 17:30:26 venux kernel: Calibrating delay loop... 797.90 BogoMIPS
+Oct 20 17:30:26 venux kernel: Memory: 126404k/131072k available (1886k kernel code, 4280k reserved, 641k data, 116k init, 0k highmem)
+Oct 20 17:30:26 venux kernel: Dentry cache hash table entries: 16384 (order: 5, 131072 bytes)
+Oct 20 17:30:26 venux kernel: Inode cache hash table entries: 8192 (order: 4, 65536 bytes)
+Oct 20 17:30:26 venux kernel: Mount cache hash table entries: 512 (order: 0, 4096 bytes)
+Oct 20 17:30:26 venux kernel: Buffer-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Oct 20 17:30:26 venux kernel: Page-cache hash table entries: 32768 (order: 5, 131072 bytes)
+Oct 20 17:30:26 venux kernel: CPU: L1 I cache: 16K, L1 D cache: 16K
+oct 20 17:30:26 venux portmap: Démarrage de portmap  succeeded
+Oct 20 17:30:26 venux kernel: CPU: L2 cache: 128K
+Oct 20 17:30:26 venux kernel: Intel machine check architecture supported.
+Oct 20 17:30:26 venux kernel: Intel machine check reporting enabled on CPU#0.
+Oct 20 17:30:27 venux kernel: CPU: Intel Celeron (Mendocino) stepping 0a
+Oct 20 17:30:27 venux kernel: Enabling fast FPU save and restore... done.
+Oct 20 17:30:27 venux kernel: Checking 'hlt' instruction... OK.
+Oct 20 17:30:27 venux kernel: POSIX conformance testing by UNIFIX
+Oct 20 17:30:27 venux kernel: PCI: PCI BIOS revision 2.10 entry at 0xfd9d3, last bus=1
+Oct 20 17:30:27 venux kernel: PCI: Using configuration type 1
+Oct 20 17:30:27 venux kernel: PCI: Probing PCI hardware
+Oct 20 17:30:27 venux kernel: PCI: Using IRQ router PIIX [8086/7110] at 00:07.0
+oct 20 17:30:27 venux keytable: Chargement de la configuration clavier :
+Oct 20 17:30:27 venux kernel: PCI: Found IRQ 11 for device 00:04.0
+Oct 20 17:30:27 venux kernel: PCI: Sharing IRQ 11 with 01:00.0
+Oct 20 17:30:27 venux kernel: PCI: Found IRQ 11 for device 00:04.1
+Oct 20 17:30:27 venux kernel: Limiting direct PCI/PCI transfers.
+Oct 20 17:30:27 venux kernel: isapnp: Scanning for PnP cards...
+Oct 20 17:30:27 venux kernel: isapnp: No Plug & Play device found
+Oct 20 17:30:27 venux kernel: Linux NET4.0 for Linux 2.4
+Oct 20 17:30:27 venux kernel: Based upon Swansea University Computer Society NET3.039
+Oct 20 17:30:27 venux kernel: Initializing RT netlink socket
+Oct 20 17:30:27 venux kernel: apm: BIOS version 1.2 Flags 0x03 (Driver version 1.16)
+oct 20 17:30:27 venux keytable: 
+Oct 20 17:30:27 venux kernel: Starting kswapd
+oct 20 17:30:27 venux keytable: Chargement des polices du système :
+Oct 20 17:30:27 venux kernel: Journalled Block Device driver loaded
+oct 20 17:30:27 venux keytable: 
+Oct 20 17:30:27 venux kernel: Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+oct 20 17:30:27 venux rc: Starting keytable:  succeeded
+Oct 20 17:30:27 venux kernel: pty: 256 Unix98 ptys configured
+Oct 20 17:30:27 venux kernel: i8k: unable to get DMI information
+oct 20 17:30:24 venux kudzu:  succeeded 
+Oct 20 17:30:27 venux kernel: i8k: vendor=?, model=?, version=?
+oct 20 17:30:24 venux kudzu: Mise à jour de /etc/fstab succeeded 
+Oct 20 17:30:27 venux kernel: i8k: unable to get SMM Dell signature
+oct 20 17:30:24 venux sysctl: net.ipv4.ip_forward = 0 
+Oct 20 17:30:27 venux kernel: i8k: unable to get SMM BIOS version
+oct 20 17:30:24 venux sysctl: net.ipv4.conf.default.rp_filter = 1 
+Oct 20 17:30:27 venux kernel: Serial driver version 5.05c (2001-07-08) with MANY_PORTS SHARE_IRQ SERIAL_PCI ISAPNP enabled
+oct 20 17:30:24 venux sysctl: kernel.core_uses_pid = 1 
+Oct 20 17:30:27 venux kernel: ttyS00 at 0x03f8 (irq = 4) is a 16550A
+oct 20 17:30:24 venux network: Configuration des paramètres réseau : succeeded 
+Oct 20 17:30:27 venux kernel: Real Time Clock Driver v1.10e
+Oct 20 17:30:27 venux kernel: Software Watchdog Timer: 0.05, timer margin: 60 sec
+Oct 20 17:30:27 venux kernel: Floppy drive(s): fd0 is 1.44M
+Oct 20 17:30:27 venux kernel: FDC 0 is a post-1991 82077
+oct 20 17:30:27 venux random: Initialisation du générateur de nombre aléatoire : succeeded
+Oct 20 17:30:27 venux kernel: RAMDISK driver initialized: 16 RAM disks of 4096K size 1024 blocksize
+Oct 20 17:30:28 venux kernel: loop: loaded (max 8 devices)
+Oct 20 17:30:28 venux kernel: PPP generic driver version 2.4.2
+Oct 20 17:30:28 venux kernel: PPP Deflate Compression module registered
+Oct 20 17:30:28 venux kernel: PPP BSD Compression module registered
+Oct 20 17:30:28 venux kernel: Linux agpgart interface v0.99 (c) Jeff Hartmann
+Oct 20 17:30:28 venux kernel: agpgart: Maximum main memory to use for agp memory: 96M
+Oct 20 17:30:28 venux kernel: agpgart: Detected Intel 440BX chipset
+Oct 20 17:30:28 venux kernel: agpgart: AGP aperture is 64M @ 0xe0000000
+Oct 20 17:30:28 venux kernel: [drm] AGP 0.99 on Intel 440BX @ 0xe0000000 64MB
+Oct 20 17:30:28 venux kernel: [drm] Initialized r128 2.2.0 20010917 on minor 0
+Oct 20 17:30:28 venux kernel: [drm] AGP 0.99 on Intel 440BX @ 0xe0000000 64MB
+Oct 20 17:30:28 venux kernel: [drm] Initialized radeon 1.1.1 20010405 on minor 1
+Oct 20 17:30:28 venux kernel: Uniform Multi-Platform E-IDE driver Revision: 7.00beta4-2.4
+Oct 20 17:30:28 venux kernel: ide: Assuming 33MHz system bus speed for PIO modes; override with idebus=xx
+Oct 20 17:30:28 venux kernel: PIIX4: IDE controller at PCI slot 00:07.1
+Oct 20 17:30:28 venux kernel: PIIX4: chipset revision 1
+Oct 20 17:30:28 venux kernel: PIIX4: not 100%% native mode: will probe irqs later
+Oct 20 17:30:28 venux kernel:     ide0: BM-DMA at 0xfcd0-0xfcd7, BIOS settings: hda:DMA, hdb:pio
+Oct 20 17:30:28 venux kernel:     ide1: BM-DMA at 0xfcd8-0xfcdf, BIOS settings: hdc:DMA, hdd:pio
+Oct 20 17:30:28 venux kernel: hda: IBM-DCYA-214000, ATA DISK drive
+oct 20 17:30:28 venux pcmcia: Starting PCMCIA services:
+Oct 20 17:30:28 venux kernel: blk: queue c03beb20, I/O limit 4095Mb (mask 0xffffffff)
+Oct 20 17:30:28 venux kernel: hdc: TOSHIBA CD-ROM XM-1902B, ATAPI CD/DVD-ROM drive
+Oct 20 17:30:28 venux kernel: ide0 at 0x1f0-0x1f7,0x3f6 on irq 14
+Oct 20 17:30:28 venux kernel: ide1 at 0x170-0x177,0x376 on irq 15
+oct 20 17:30:29 venux pcmcia:  cardmgr.
+Oct 20 17:30:29 venux kernel: hda: attached ide-disk driver.
+Oct 20 17:30:29 venux kernel: hda: host protected area => 1
+Oct 20 17:30:29 venux kernel: hda: 27609120 sectors (14136 MB) w/420KiB Cache, CHS=1826/240/63, UDMA(33)
+Oct 20 17:30:29 venux kernel: hdc: attached ide-cdrom driver.
+Oct 20 17:30:29 venux cardmgr[922]: starting, version is 3.1.31
+Oct 20 17:30:29 venux kernel: hdc: ATAPI 24X CD-ROM drive, 128kB Cache, DMA
+oct 20 17:30:29 venux rc: Starting pcmcia:  succeeded
+Oct 20 17:30:29 venux kernel: Uniform CD-ROM driver Revision: 3.12
+Oct 20 17:30:29 venux kernel: Partition check:
+Oct 20 17:30:29 venux kernel:  hda: hda1 hda2 < hda5 hda6 hda7 hda8 >
+Oct 20 17:30:29 venux kernel: SCSI subsystem driver Revision: 1.00
+Oct 20 17:30:29 venux cardmgr[922]: watching 2 sockets
+Oct 20 17:30:29 venux kernel: kmod: failed to exec /sbin/modprobe -s -k scsi_hostadapter, errno = 2
+Oct 20 17:30:29 venux cardmgr[922]: Card Services release does not match
+Oct 20 17:30:29 venux kernel: kmod: failed to exec /sbin/modprobe -s -k scsi_hostadapter, errno = 2
+Oct 20 17:30:29 venux cardmgr[922]: could not adjust resource: IO ports 0xc00-0xcff: Device or resource busy
+Oct 20 17:30:29 venux kernel: kmod: failed to exec /sbin/modprobe -s -k scsi_hostadapter, errno = 2
+Oct 20 17:30:29 venux cardmgr[922]: could not adjust resource: IO ports 0x100-0x4ff: Device or resource busy
+Oct 20 17:30:29 venux kernel: raw1394: /dev/raw1394 device initialized
+Oct 20 17:30:29 venux cardmgr[922]: could not adjust resource: memory 0xc0000-0xfffff: Input/output error
+Oct 20 17:30:29 venux kernel: maestro: version 0.15 time 10:31:15 Sep  1 2003
+Oct 20 17:30:29 venux cardmgr[922]: could not adjust resource: memory 0x60000000-0x60ffffff: Input/output error
+Oct 20 17:30:29 venux kernel: PCI: Found IRQ 5 for device 00:08.0
+Oct 20 17:30:29 venux cardmgr[922]: could not adjust resource: memory 0xa0000000-0xa0ffffff: Input/output error
+Oct 20 17:30:29 venux kernel: maestro: Configuring ESS Maestro 2 found at IO 0xF800 IRQ 5
+Oct 20 17:30:29 venux cardmgr[922]: could not adjust resource: IO ports 0xa00-0xaff: Device or resource busy
+Oct 20 17:30:29 venux kernel: maestro:  subvendor id: 0x00851028
+Oct 20 17:30:29 venux kernel: maestro: not attempting power management.
+Oct 20 17:30:29 venux kernel: maestro: AC97 Codec detected: v: 0x41445303 caps: 0x400 pwr: 0xf
+Oct 20 17:30:29 venux kernel: maestro: 1 channels configured.
+Oct 20 17:30:29 venux kernel: Linux Kernel Card Services 3.1.22
+Oct 20 17:30:29 venux kernel:   options:  [pci] [cardbus] [pm]
+Oct 20 17:30:29 venux kernel: PCI: Found IRQ 11 for device 00:04.0
+Oct 20 17:30:29 venux kernel: PCI: Sharing IRQ 11 with 01:00.0
+Oct 20 17:30:29 venux kernel: PCI: Found IRQ 11 for device 00:04.1
+Oct 20 17:30:29 venux kernel: usb.c: registered new driver hub
+Oct 20 17:30:29 venux kernel: Yenta IRQ list 0698, PCI irq11
+oct 20 17:30:29 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+Oct 20 17:30:29 venux kernel: Socket status: 30000006
+Oct 20 17:30:29 venux kernel: Yenta IRQ list 0698, PCI irq11
+Oct 20 17:30:29 venux kernel: Socket status: 30000006
+Oct 20 17:30:29 venux kernel: host/usb-uhci.c: $Revision: 1.275 $ time 10:31:57 Sep  1 2003
+Oct 20 17:30:30 venux kernel: host/usb-uhci.c: High bandwidth mode enabled
+Oct 20 17:30:30 venux kernel: PCI: Found IRQ 11 for device 00:07.2
+Oct 20 17:30:30 venux kernel: host/usb-uhci.c: USB UHCI at I/O 0xfce0, IRQ 11
+Oct 20 17:30:30 venux kernel: host/usb-uhci.c: Detected 2 ports
+Oct 20 17:30:30 venux kernel: usb.c: new USB bus registered, assigned bus number 1
+Oct 20 17:30:30 venux kernel: hub.c: USB hub found
+Oct 20 17:30:30 venux kernel: hub.c: 2 ports detected
+Oct 20 17:30:30 venux kernel: host/usb-uhci.c: v1.275:USB Universal Host Controller Interface driver
+Oct 20 17:30:30 venux kernel: Initializing USB Mass Storage driver...
+Oct 20 17:30:30 venux kernel: usb.c: registered new driver usb-storage
+Oct 20 17:30:30 venux kernel: USB Mass Storage support registered.
+Oct 20 17:30:30 venux kernel: Linux video capture interface: v1.00
+Oct 20 17:30:30 venux kernel: NET4: Linux TCP/IP 1.0 for NET4.0
+Oct 20 17:30:30 venux kernel: IP Protocols: ICMP, UDP, TCP, IGMP
+Oct 20 17:30:30 venux kernel: IP: routing cache hash table of 1024 buckets, 8Kbytes
+Oct 20 17:30:30 venux kernel: TCP: Hash tables configured (established 8192 bind 16384)
+Oct 20 17:30:30 venux kernel: NET4: Unix domain sockets 1.0/SMP for Linux NET4.0.
+Oct 20 17:30:30 venux kernel: kjournald starting.  Commit interval 5 seconds
+Oct 20 17:30:30 venux kernel: EXT3-fs: mounted filesystem with ordered data mode.
+Oct 20 17:30:30 venux kernel: VFS: Mounted root (ext3 filesystem) readonly.
+Oct 20 17:30:30 venux kernel: Freeing unused kernel memory: 116k freed
+Oct 20 17:30:30 venux kernel: EXT3 FS 2.4-0.9.19, 19 August 2002 on ide0(3,5), internal journal
+Oct 20 17:30:30 venux kernel: Adding Swap: 136040k swap-space (priority -1)
+Oct 20 17:30:30 venux kernel: parport0: PC-style at 0x378 [PCSPP(,...)]
+Oct 20 17:30:30 venux kernel: cs: IO port probe 0x0c00-0x0cff: clean.
+Oct 20 17:30:30 venux kernel: cs: IO port probe 0x0100-0x04ff: excluding 0x378-0x37f 0x4d0-0x4d7
+Oct 20 17:30:30 venux kernel: cs: IO port probe 0x0a00-0x0aff: clean.
+oct 20 17:30:30 venux apmd: Démarrage de apmd  succeeded
+Oct 20 17:30:30 venux apmd[946]: Version 3.0.2 (APM BIOS 1.2, Linux driver 1.16)
+oct 20 17:30:31 venux autofs: automount startup succeeded
+Oct 20 17:30:31 venux apmd[946]: Battery: * * * (100% 3:20)
+oct 20 17:30:32 venux sshd:  succeeded
+Oct 20 17:30:33 venux xinetd[996]: xinetd Version 2.3.11 started with libwrap loadavg options compiled in.
+Oct 20 17:30:33 venux xinetd[996]: Started working: 1 available service
+Oct 20 17:30:36 venux xinetd: Démarrage de xinetd  succeeded
+oct 20 17:30:36 venux vsftpd: Démarrage de true  succeeded
+oct 20 17:30:36 venux gpm: Démarrage de gpm  succeeded
+oct 20 17:30:37 venux crond: Démarrage de crond  succeeded
+Oct 20 17:30:38 venux kernel: parport0: PC-style at 0x378 [PCSPP(,...)]
+Oct 20 17:30:38 venux kernel: lp0: using parport0 (polling).
+Oct 20 17:30:38 venux modprobe: modprobe: Can't locate module char-major-188
+Oct 20 17:30:38 venux last message repeated 15 times
+oct 20 17:30:38 venux cups: Démarrage de cupsd  succeeded
+oct 20 17:30:39 venux xfs: Démarrage de xfs  succeeded
+oct 20 17:30:40 venux anacron: Démarrage de anacron  succeeded
+oct 20 17:30:40 venux atd: Démarrage de atd  succeeded
+Oct 20 17:30:41 venux xfs: ignoring font path element /usr/X11R6/lib/X11/fonts/cyrillic (unreadable) 
+Oct 20 17:30:53 venux modprobe: modprobe: Can't locate module char-major-13
+Oct 20 17:31:06 venux login(pam_unix)[1116]: session opened for user root by LOGIN(uid=0)
+Oct 20 17:31:07 venux  -- root[1116]: ROOT LOGIN ON tty1
+Oct 20 17:33:31 venux login(pam_unix)[1117]: session opened for user root by LOGIN(uid=0)
+Oct 20 17:33:31 venux  -- root[1117]: ROOT LOGIN ON tty2
+Oct 20 17:37:49 venux kernel: cs: cb_alloc(bus 6): vendor 0x10b7, device 0x5157
+Oct 20 17:37:49 venux kernel: PCI: Enabling device 06:00.0 (0000 -> 0003)
+Oct 20 17:37:49 venux kernel: 3c59x: Donald Becker and others. www.scyld.com/network/vortex.html
+Oct 20 17:37:49 venux kernel: See Documentation/networking/vortex.txt
+Oct 20 17:37:49 venux kernel: 06:00.0: 3Com PCI 3CCFE575BT Cyclone CardBus at 0x4800. Vers LK1.1.16
+Oct 20 17:37:49 venux kernel:  00:50:04:8c:7a:ed, IRQ 11
+Oct 20 17:37:49 venux kernel:   product code 5458 rev 07.1 date 06-23-99
+Oct 20 17:37:49 venux kernel: 06:00.0: CardBus functions mapped 11000080->c8842080
+Oct 20 17:37:49 venux kernel:   8K byte-wide RAM 5:3 Rx:Tx split, MII interface.
+Oct 20 17:37:49 venux kernel:   MII transceiver found at address 0, status 7809.
+Oct 20 17:37:49 venux kernel:   Enabling bus-master transmits and whole-frame receives.
+Oct 20 17:37:50 venux kernel: 06:00.0: scatter/gather enabled. h/w checksums enabled
+Oct 20 17:37:50 venux cardmgr[922]: socket 1: CardBus hotplug device
+Oct 20 17:37:50 venux /etc/hotplug/net.agent: invoke ifup eth0
+Oct 20 17:37:50 venux /etc/hotplug/pci.agent: ... no modules for PCI slot 06:00.0
+Oct 20 17:38:12 venux kernel: cs: cb_free(bus 6)
+Oct 20 17:38:12 venux /etc/hotplug/net.agent: NET unregister event not supported
+Oct 20 17:38:12 venux /etc/hotplug/pci.agent: PCI remove event not supported
+Oct 20 17:41:45 venux login(pam_unix)[1118]: session opened for user root by LOGIN(uid=0)
+Oct 20 17:41:45 venux  -- root[1118]: ROOT LOGIN ON tty3
+Oct 20 18:56:13 venux init: Switching to runlevel: 0
+Oct 20 18:56:13 venux login(pam_unix)[1118]: session closed for user root
+Oct 20 18:56:13 venux login(pam_unix)[1116]: session closed for user root
+Oct 20 18:56:13 venux login(pam_unix)[1117]: session closed for user root
+oct 20 18:56:15 venux atd: Arrêt de atd succeeded
+oct 20 18:56:15 venux rc: Stopping keytable:  succeeded
+oct 20 18:56:15 venux cups: Arrêt de cupsd succeeded
+Oct 20 18:56:15 venux xfs[1092]: terminating 
+oct 20 18:56:15 venux xfs: Arrêt de xfs succeeded
+oct 20 18:56:16 venux gpm: Arrêt de gpm succeeded
+oct 20 18:56:16 venux sshd: sshd -TERM succeeded
+oct 20 18:56:16 venux vsftpd: Arrêt de vsftpd succeeded
+Oct 20 18:56:16 venux xinetd[996]: Exiting...
+oct 20 18:56:16 venux xinetd: Arrêt de xinetd succeeded
+oct 20 18:56:17 venux crond: Arrêt de crond succeeded
+Oct 20 18:56:17 venux apmd[946]: Exiting
+oct 20 18:56:18 venux apmd: Arrêt de apmd succeeded
+oct 20 18:56:19 venux dd: 1+0 enregistrements lus.
+oct 20 18:56:19 venux dd: 1+0 enregistrements écrits.
+oct 20 18:56:19 venux random: Sauvegarde du random seed : succeeded
+oct 20 18:56:19 venux portmap: Arrêt de portmap succeeded
+Oct 20 18:56:19 venux kernel: Kernel logging (proc) stopped.
+Oct 20 18:56:19 venux kernel: Kernel log daemon terminating.
+oct 20 18:56:20 venux syslog: Arrêt de klogd succeeded
+Oct 20 18:56:20 venux exiting on signal 15
+Oct 20 18:57:36 venux syslogd 1.4.1: restart.
+oct 20 18:57:36 venux syslog: Démarrage de syslogd  succeeded
+oct 20 18:57:36 venux syslog: Démarrage de klogd  succeeded
+Oct 20 18:57:36 venux kernel: klogd 1.4.1, log source = /proc/kmsg started.
+Oct 20 18:57:36 venux kernel: Linux version 2.4.21-20031020 (root@venux) (version gcc 3.2.2 20030222 (Red Hat Linux 3.2.2-5)) #3 lun oct 20 18:19:16 CEST 2003
+Oct 20 18:57:36 venux kernel: BIOS-provided physical RAM map:
+Oct 20 18:57:36 venux kernel:  BIOS-e820: 0000000000000000 - 000000000009f800 (usable)
+Oct 20 18:57:36 venux kernel:  BIOS-e820: 000000000009f800 - 00000000000a0000 (reserved)
+Oct 20 18:57:36 venux kernel:  BIOS-e820: 00000000000eb800 - 0000000000100000 (reserved)
+Oct 20 18:57:36 venux kernel:  BIOS-e820: 0000000000100000 - 0000000008000000 (usable)
+Oct 20 18:57:36 venux kernel:  BIOS-e820: 00000000fffeb800 - 0000000100000000 (reserved)
+Oct 20 18:57:36 venux kernel: 128MB LOWMEM available.
+Oct 20 18:57:36 venux kernel: On node 0 totalpages: 32768
+Oct 20 18:57:36 venux kernel: zone(0): 4096 pages.
+Oct 20 18:57:36 venux kernel: zone(1): 28672 pages.
+Oct 20 18:57:36 venux kernel: zone(2): 0 pages.
+Oct 20 18:57:36 venux kernel: Kernel command line: auto BOOT_IMAGE=linux-20.10.03 ro root=305 BOOT_FILE=/boot/vmlinuz-2.4.21-20031020
+Oct 20 18:57:37 venux kernel: Initializing CPU#0
+Oct 20 18:57:37 venux kernel: Detected 400.021 MHz processor.
+Oct 20 18:57:37 venux kernel: Console: colour VGA+ 80x25
+Oct 20 18:57:37 venux kernel: Calibrating delay loop... 797.90 BogoMIPS
+Oct 20 18:57:37 venux kernel: Memory: 126412k/131072k available (1898k kernel code, 4272k reserved, 640k data, 96k init, 0k highmem)
+Oct 20 18:57:37 venux kernel: Dentry cache hash table entries: 16384 (order: 5, 131072 bytes)
+Oct 20 18:57:37 venux kernel: Inode cache hash table entries: 8192 (order: 4, 65536 bytes)
+oct 20 18:57:37 venux portmap: Démarrage de portmap  succeeded
+Oct 20 18:57:37 venux kernel: Mount cache hash table entries: 512 (order: 0, 4096 bytes)
+Oct 20 18:57:37 venux kernel: Buffer-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Oct 20 18:57:37 venux kernel: Page-cache hash table entries: 32768 (order: 5, 131072 bytes)
+Oct 20 18:57:37 venux kernel: CPU: L1 I cache: 16K, L1 D cache: 16K
+Oct 20 18:57:37 venux kernel: CPU: L2 cache: 128K
+Oct 20 18:57:37 venux kernel: Intel machine check architecture supported.
+Oct 20 18:57:37 venux kernel: Intel machine check reporting enabled on CPU#0.
+oct 20 18:57:37 venux keytable: Chargement de la configuration clavier :
+Oct 20 18:57:37 venux kernel: CPU: Intel Celeron (Mendocino) stepping 0a
+Oct 20 18:57:37 venux kernel: Enabling fast FPU save and restore... done.
+Oct 20 18:57:37 venux kernel: Checking 'hlt' instruction... OK.
+Oct 20 18:57:37 venux kernel: POSIX conformance testing by UNIFIX
+Oct 20 18:57:37 venux kernel: PCI: PCI BIOS revision 2.10 entry at 0xfd9d3, last bus=1
+Oct 20 18:57:37 venux kernel: PCI: Using configuration type 1
+Oct 20 18:57:37 venux kernel: PCI: Probing PCI hardware
+Oct 20 18:57:37 venux kernel: PCI: Using IRQ router PIIX [8086/7110] at 00:07.0
+Oct 20 18:57:37 venux kernel: PCI: Found IRQ 11 for device 00:04.0
+Oct 20 18:57:37 venux kernel: PCI: Sharing IRQ 11 with 01:00.0
+Oct 20 18:57:37 venux kernel: PCI: Found IRQ 11 for device 00:04.1
+Oct 20 18:57:37 venux kernel: Limiting direct PCI/PCI transfers.
+Oct 20 18:57:37 venux kernel: isapnp: Scanning for PnP cards...
+oct 20 18:57:37 venux keytable: 
+Oct 20 18:57:37 venux kernel: isapnp: No Plug & Play device found
+oct 20 18:57:37 venux keytable: Chargement des polices du système :
+Oct 20 18:57:37 venux kernel: Linux NET4.0 for Linux 2.4
+oct 20 18:57:37 venux keytable: 
+Oct 20 18:57:37 venux kernel: Based upon Swansea University Computer Society NET3.039
+oct 20 18:57:37 venux rc: Starting keytable:  succeeded
+Oct 20 18:57:37 venux kernel: Initializing RT netlink socket
+Oct 20 18:57:38 venux kernel: apm: BIOS version 1.2 Flags 0x03 (Driver version 1.16)
+Oct 20 18:57:38 venux kernel: Starting kswapd
+Oct 20 18:57:38 venux kernel: Journalled Block Device driver loaded
+Oct 20 18:57:38 venux kernel: Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Oct 20 18:57:38 venux kernel: pty: 256 Unix98 ptys configured
+Oct 20 18:57:38 venux kernel: i8k: unable to get DMI information
+Oct 20 18:57:38 venux kernel: i8k: vendor=?, model=?, version=?
+Oct 20 18:57:38 venux kernel: i8k: unable to get SMM Dell signature
+Oct 20 18:57:38 venux kernel: i8k: unable to get SMM BIOS version
+Oct 20 18:57:38 venux kernel: Serial driver version 5.05c (2001-07-08) with MANY_PORTS SHARE_IRQ SERIAL_PCI ISAPNP enabled
+Oct 20 18:57:38 venux kernel: ttyS00 at 0x03f8 (irq = 4) is a 16550A
+Oct 20 18:57:38 venux kernel: Real Time Clock Driver v1.10e
+Oct 20 18:57:38 venux kernel: Software Watchdog Timer: 0.05, timer margin: 60 sec
+Oct 20 18:57:38 venux kernel: Floppy drive(s): fd0 is 1.44M
+Oct 20 18:57:38 venux kernel: FDC 0 is a post-1991 82077
+oct 20 18:57:38 venux random: Initialisation du générateur de nombre aléatoire : succeeded
+Oct 20 18:57:38 venux kernel: RAMDISK driver initialized: 16 RAM disks of 4096K size 1024 blocksize
+Oct 20 18:57:38 venux kernel: loop: loaded (max 8 devices)
+Oct 20 18:57:38 venux kernel: PPP generic driver version 2.4.2
+Oct 20 18:57:38 venux kernel: PPP Deflate Compression module registered
+Oct 20 18:57:38 venux kernel: PPP BSD Compression module registered
+Oct 20 18:57:38 venux kernel: Linux agpgart interface v0.99 (c) Jeff Hartmann
+oct 20 18:57:36 venux network: Montage de l'interface : succeeded 
+Oct 20 18:57:38 venux kernel: agpgart: Maximum main memory to use for agp memory: 96M
+oct 20 18:57:36 venux ifup: Le dispositif 3c59x n'étant pas présent, l'initialisation de eth0 sera retardée. 
+Oct 20 18:57:38 venux kernel: agpgart: Detected Intel 440BX chipset
+oct 20 18:57:36 venux network: Montage de l'interface eth0 : failed 
+Oct 20 18:57:38 venux kernel: agpgart: AGP aperture is 64M @ 0xe0000000
+Oct 20 18:57:38 venux kernel: [drm] AGP 0.99 on Intel 440BX @ 0xe0000000 64MB
+Oct 20 18:57:38 venux kernel: [drm] Initialized r128 2.2.0 20010917 on minor 0
+Oct 20 18:57:38 venux kernel: [drm] AGP 0.99 on Intel 440BX @ 0xe0000000 64MB
+Oct 20 18:57:38 venux kernel: [drm] Initialized radeon 1.1.1 20010405 on minor 1
+Oct 20 18:57:38 venux kernel: Uniform Multi-Platform E-IDE driver Revision: 7.00beta4-2.4
+Oct 20 18:57:38 venux kernel: ide: Assuming 33MHz system bus speed for PIO modes; override with idebus=xx
+Oct 20 18:57:38 venux kernel: PIIX4: IDE controller at PCI slot 00:07.1
+Oct 20 18:57:38 venux kernel: PIIX4: chipset revision 1
+Oct 20 18:57:38 venux kernel: PIIX4: not 100%% native mode: will probe irqs later
+Oct 20 18:57:38 venux kernel:     ide0: BM-DMA at 0xfcd0-0xfcd7, BIOS settings: hda:DMA, hdb:pio
+Oct 20 18:57:38 venux kernel:     ide1: BM-DMA at 0xfcd8-0xfcdf, BIOS settings: hdc:DMA, hdd:pio
+oct 20 18:57:38 venux pcmcia: Starting PCMCIA services:
+Oct 20 18:57:39 venux kernel: hda: IBM-DCYA-214000, ATA DISK drive
+oct 20 18:57:39 venux pcmcia:  cardmgr.
+Oct 20 18:57:39 venux kernel: blk: queue c03bbde0, I/O limit 4095Mb (mask 0xffffffff)
+Oct 20 18:57:39 venux kernel: hdc: TOSHIBA CD-ROM XM-1902B, ATAPI CD/DVD-ROM drive
+Oct 20 18:57:39 venux kernel: ide0 at 0x1f0-0x1f7,0x3f6 on irq 14
+Oct 20 18:57:39 venux kernel: ide1 at 0x170-0x177,0x376 on irq 15
+Oct 20 18:57:39 venux cardmgr[905]: starting, version is 3.1.31
+Oct 20 18:57:39 venux kernel: hda: attached ide-disk driver.
+oct 20 18:57:39 venux rc: Starting pcmcia:  succeeded
+Oct 20 18:57:39 venux kernel: hda: host protected area => 1
+Oct 20 18:57:39 venux kernel: hda: 27609120 sectors (14136 MB) w/420KiB Cache, CHS=1826/240/63, UDMA(33)
+Oct 20 18:57:39 venux kernel: hdc: attached ide-cdrom driver.
+Oct 20 18:57:39 venux cardmgr[905]: watching 2 sockets
+Oct 20 18:57:39 venux kernel: hdc: ATAPI 24X CD-ROM drive, 128kB Cache, DMA
+Oct 20 18:57:39 venux cardmgr[905]: Card Services release does not match
+Oct 20 18:57:39 venux kernel: Uniform CD-ROM driver Revision: 3.12
+Oct 20 18:57:39 venux cardmgr[905]: could not adjust resource: IO ports 0xc00-0xcff: Device or resource busy
+Oct 20 18:57:39 venux kernel: Partition check:
+Oct 20 18:57:39 venux cardmgr[905]: could not adjust resource: IO ports 0x100-0x4ff: Device or resource busy
+Oct 20 18:57:39 venux kernel:  hda: hda1 hda2 < hda5 hda6 hda7 hda8 >
+Oct 20 18:57:39 venux cardmgr[905]: could not adjust resource: memory 0xc0000-0xfffff: Input/output error
+Oct 20 18:57:39 venux kernel: SCSI subsystem driver Revision: 1.00
+Oct 20 18:57:39 venux cardmgr[905]: could not adjust resource: memory 0x60000000-0x60ffffff: Input/output error
+Oct 20 18:57:39 venux kernel: kmod: failed to exec /sbin/modprobe -s -k scsi_hostadapter, errno = 2
+Oct 20 18:57:39 venux cardmgr[905]: could not adjust resource: memory 0xa0000000-0xa0ffffff: Input/output error
+Oct 20 18:57:39 venux kernel: raw1394: /dev/raw1394 device initialized
+Oct 20 18:57:39 venux cardmgr[905]: could not adjust resource: IO ports 0xa00-0xaff: Device or resource busy
+Oct 20 18:57:39 venux kernel: maestro: version 0.15 time 18:26:27 Oct 20 2003
+oct 20 18:57:40 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+Oct 20 18:57:40 venux kernel: PCI: Found IRQ 5 for device 00:08.0
+Oct 20 18:57:40 venux kernel: maestro: Configuring ESS Maestro 2 found at IO 0xF800 IRQ 5
+Oct 20 18:57:40 venux kernel: maestro:  subvendor id: 0x00851028
+Oct 20 18:57:40 venux kernel: maestro: not attempting power management.
+Oct 20 18:57:40 venux kernel: maestro: AC97 Codec detected: v: 0x41445303 caps: 0x400 pwr: 0xf
+Oct 20 18:57:40 venux kernel: maestro: 1 channels configured.
+Oct 20 18:57:40 venux kernel: Linux Kernel Card Services 3.1.22
+Oct 20 18:57:40 venux kernel:   options:  [pci] [cardbus] [pm]
+Oct 20 18:57:40 venux kernel: PCI: Found IRQ 11 for device 00:04.0
+Oct 20 18:57:40 venux kernel: PCI: Sharing IRQ 11 with 01:00.0
+Oct 20 18:57:40 venux kernel: PCI: Found IRQ 11 for device 00:04.1
+oct 20 18:57:40 venux apmd: Démarrage de apmd  succeeded
+Oct 20 18:57:40 venux kernel: usb.c: registered new driver hub
+Oct 20 18:57:40 venux apmd[929]: Version 3.0.2 (APM BIOS 1.2, Linux driver 1.16)
+Oct 20 18:57:40 venux kernel: Yenta IRQ list 0698, PCI irq11
+Oct 20 18:57:40 venux kernel: Socket status: 30000006
+Oct 20 18:57:40 venux kernel: Yenta IRQ list 0698, PCI irq11
+Oct 20 18:57:40 venux kernel: Socket status: 30000006
+oct 20 18:57:40 venux autofs: automount startup succeeded
+Oct 20 18:57:41 venux kernel: host/usb-uhci.c: $Revision: 1.275 $ time 18:27:09 Oct 20 2003
+Oct 20 18:57:41 venux kernel: host/usb-uhci.c: High bandwidth mode enabled
+Oct 20 18:57:41 venux kernel: PCI: Found IRQ 11 for device 00:07.2
+Oct 20 18:57:41 venux kernel: host/usb-uhci.c: USB UHCI at I/O 0xfce0, IRQ 11
+Oct 20 18:57:41 venux kernel: host/usb-uhci.c: Detected 2 ports
+Oct 20 18:57:41 venux kernel: usb.c: new USB bus registered, assigned bus number 1
+Oct 20 18:57:41 venux kernel: hub.c: USB hub found
+Oct 20 18:57:41 venux kernel: hub.c: 2 ports detected
+Oct 20 18:57:41 venux kernel: host/usb-uhci.c: v1.275:USB Universal Host Controller Interface driver
+Oct 20 18:57:41 venux kernel: usb.c: registered new driver hid
+Oct 20 18:57:41 venux kernel: hid-core.c: v1.8.1 Andreas Gal, Vojtech Pavlik <vojtech@suse.cz>
+Oct 20 18:57:41 venux kernel: hid-core.c: USB HID support drivers
+Oct 20 18:57:41 venux kernel: Initializing USB Mass Storage driver...
+Oct 20 18:57:41 venux kernel: usb.c: registered new driver usb-storage
+Oct 20 18:57:41 venux kernel: USB Mass Storage support registered.
+Oct 20 18:57:41 venux kernel: Linux video capture interface: v1.00
+Oct 20 18:57:41 venux kernel: NET4: Linux TCP/IP 1.0 for NET4.0
+Oct 20 18:57:41 venux kernel: IP Protocols: ICMP, UDP, TCP, IGMP
+Oct 20 18:57:41 venux apmd[929]: Battery: * * * (100% 3:20)
+Oct 20 18:57:41 venux kernel: IP: routing cache hash table of 1024 buckets, 8Kbytes
+Oct 20 18:57:42 venux kernel: TCP: Hash tables configured (established 8192 bind 16384)
+Oct 20 18:57:42 venux kernel: NET4: Unix domain sockets 1.0/SMP for Linux NET4.0.
+Oct 20 18:57:42 venux kernel: kjournald starting.  Commit interval 5 seconds
+Oct 20 18:57:42 venux kernel: EXT3-fs: mounted filesystem with ordered data mode.
+Oct 20 18:57:42 venux kernel: VFS: Mounted root (ext3 filesystem) readonly.
+Oct 20 18:57:42 venux kernel: Freeing unused kernel memory: 96k freed
+Oct 20 18:57:42 venux kernel: EXT3 FS 2.4-0.9.19, 19 August 2002 on ide0(3,5), internal journal
+Oct 20 18:57:43 venux kernel: Adding Swap: 136040k swap-space (priority -1)
+Oct 20 18:57:43 venux kernel: parport0: PC-style at 0x378 [PCSPP(,...)]
+oct 20 18:57:44 venux sshd:  succeeded
+Oct 20 18:57:45 venux xinetd[979]: xinetd Version 2.3.11 started with libwrap loadavg options compiled in.
+Oct 20 18:57:45 venux xinetd[979]: Started working: 1 available service
+Oct 20 18:57:47 venux xinetd: Démarrage de xinetd  succeeded
+oct 20 18:57:48 venux vsftpd: Démarrage de true  succeeded
+oct 20 18:57:48 venux gpm: Démarrage de gpm  succeeded
+oct 20 18:57:49 venux crond: Démarrage de crond  succeeded
+Oct 20 18:57:49 venux kernel: parport0: PC-style at 0x378 [PCSPP(,...)]
+Oct 20 18:57:49 venux kernel: lp0: using parport0 (polling).
+Oct 20 18:57:50 venux modprobe: modprobe: Can't locate module char-major-188
+Oct 20 18:57:50 venux last message repeated 15 times
+oct 20 18:57:50 venux cups: Démarrage de cupsd  succeeded
+oct 20 18:57:51 venux xfs: Démarrage de xfs  succeeded
+oct 20 18:57:51 venux anacron: Démarrage de anacron  succeeded
+oct 20 18:57:52 venux atd: Démarrage de atd  succeeded
+Oct 20 18:57:53 venux xfs: ignoring font path element /usr/X11R6/lib/X11/fonts/cyrillic (unreadable) 
+Oct 20 18:57:59 venux login(pam_unix)[1099]: check pass; user unknown
+Oct 20 18:57:59 venux login(pam_unix)[1099]: authentication failure; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost= 
+Oct 20 18:58:01 venux login[1099]: FAILED LOGIN 1 FROM (null) FOR r, Authentication failure
+Oct 20 18:58:14 venux xdm(pam_unix)[1113]: session opened for user ccb by (uid=0)
+oct 20 18:58:30 venux su(pam_unix)[1228]: session opened for user root by ccb(uid=500)
+oct 20 19:01:23 venux su(pam_unix)[1228]: session closed for user root
+Oct 20 19:01:39 venux kernel: EXT2-fs warning: mounting unchecked fs, running e2fsck is recommended
+Oct 20 19:17:38 venux apmd[929]: Now using Battery Power
+Oct 20 22:48:10 venux apmd[929]: Now using AC Power
+Oct 20 22:48:10 venux apmd[929]: Charge: * * * (30% 1:00)
+oct 20 23:54:23 venux network: Arrêt de l'interface de loopback : succeeded
+Oct 20 23:54:24 venux apmd[929]: System Suspend
+oct 21 08:18:21 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+oct 21 08:18:21 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+Oct 21 08:18:21 venux apmd[929]: Normal Resume after 08:23:57 (99% 3:18) Battery power
+Oct 21 08:20:33 venux kernel: cs: cb_alloc(bus 6): vendor 0x10b7, device 0x5157
+Oct 21 08:20:33 venux kernel: PCI: Enabling device 06:00.0 (0000 -> 0003)
+Oct 21 08:20:33 venux kernel: 3c59x: Donald Becker and others. www.scyld.com/network/vortex.html
+Oct 21 08:20:33 venux kernel: See Documentation/networking/vortex.txt
+Oct 21 08:20:33 venux kernel: 06:00.0: 3Com PCI 3CCFE575BT Cyclone CardBus at 0x4800. Vers LK1.1.16
+Oct 21 08:20:33 venux kernel:  00:50:04:8c:7a:ed, IRQ 11
+Oct 21 08:20:33 venux kernel:   product code 5458 rev 07.1 date 06-23-99
+Oct 21 08:20:33 venux kernel: 06:00.0: CardBus functions mapped 11000080->c8842080
+Oct 21 08:20:33 venux kernel:   8K byte-wide RAM 5:3 Rx:Tx split, MII interface.
+Oct 21 08:20:33 venux kernel:   MII transceiver found at address 0, status 7809.
+Oct 21 08:20:33 venux kernel:   Enabling bus-master transmits and whole-frame receives.
+Oct 21 08:20:33 venux kernel: 06:00.0: scatter/gather enabled. h/w checksums enabled
+Oct 21 08:20:33 venux cardmgr[905]: socket 1: CardBus hotplug device
+Oct 21 08:20:34 venux /etc/hotplug/net.agent: invoke ifup eth0
+Oct 21 08:20:34 venux /etc/hotplug/pci.agent: ... no modules for PCI slot 06:00.0
+Oct 21 08:20:37 venux dhclient: DHCPREQUEST on eth0 to 255.255.255.255 port 67
+Oct 21 08:20:37 venux dhclient: DHCPACK from 149.236.60.66
+Oct 21 08:20:37 venux dhclient: bound to 149.236.66.193 -- renewal in 35070 seconds.
+Oct 21 08:20:48 venux kernel: spurious 8259A interrupt: IRQ7.
+oct 21 10:38:32 venux su(pam_unix)[4154]: session opened for user root by ccb(uid=500)
+oct 21 10:38:40 venux su(pam_unix)[4154]: session closed for user root
+oct 21 10:38:50 venux su(pam_unix)[4303]: session opened for user root by ccb(uid=500)
+Oct 21 10:39:22 venux xinetd[979]: Exiting...
+oct 21 10:39:22 venux xinetd: Arrêt de xinetd succeeded
+Oct 21 10:39:22 venux xinetd[4348]: xinetd Version 2.3.11 started with libwrap loadavg options compiled in.
+Oct 21 10:39:22 venux xinetd[4348]: Started working: 2 available services
+Oct 21 10:39:25 venux xinetd: Démarrage de xinetd  succeeded
+oct 21 10:39:35 venux su(pam_unix)[4303]: session closed for user root
+oct 21 14:26:16 venux su(pam_unix)[4902]: session opened for user root by ccb(uid=500)
+oct 21 14:26:50 venux su(pam_unix)[4902]: session closed for user root
+oct 21 15:10:11 venux su(pam_unix)[5193]: session opened for user root by ccb(uid=500)
+Oct 21 15:10:21 venux kernel: eth0: Setting promiscuous mode.
+Oct 21 15:10:21 venux kernel: device eth0 entered promiscuous mode
+Oct 21 15:10:23 venux kernel: eth0: Setting promiscuous mode.
+Oct 21 15:10:23 venux kernel: device eth0 left promiscuous mode
+Oct 21 15:10:42 venux kernel: eth0: Setting promiscuous mode.
+Oct 21 15:10:42 venux kernel: device eth0 entered promiscuous mode
+Oct 21 15:12:03 venux kernel: device eth0 left promiscuous mode
+oct 21 15:12:03 venux su(pam_unix)[5193]: session closed for user root
+Oct 21 16:47:39 venux kernel: cs: cb_free(bus 6)
+Oct 21 16:47:39 venux dhclient: receive_packet failed on eth0: Network is down
+Oct 21 16:47:39 venux /etc/hotplug/pci.agent: PCI remove event not supported
+Oct 21 16:47:39 venux /etc/hotplug/net.agent: NET unregister event not supported
+Oct 21 16:47:58 venux apmd[929]: Now using Battery Power
+Oct 21 16:47:58 venux apmd[929]: Battery: -0.001962 (8:30) 4294967261 days, 4294967287:4294967276 (100% 3:20)
+oct 21 16:48:09 venux network: Arrêt de l'interface de loopback : succeeded
+Oct 21 16:48:10 venux apmd[929]: System Suspend
+oct 21 17:25:48 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+oct 21 17:25:48 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+Oct 21 17:25:49 venux apmd[929]: Normal Resume after 00:37:39 (98% 3:16) AC power
+oct 21 22:24:12 venux network: Arrêt de l'interface de loopback : succeeded
+Oct 21 22:24:13 venux apmd[929]: System Suspend
+oct 22 08:20:56 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+oct 22 08:20:56 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+Oct 22 08:20:57 venux apmd[929]: Normal Resume after 09:56:44, -16.89%/day (93% 3:06) Battery power
+Oct 22 08:22:08 venux kernel: cs: cb_alloc(bus 6): vendor 0x10b7, device 0x5157
+Oct 22 08:22:08 venux kernel: PCI: Enabling device 06:00.0 (0000 -> 0003)
+Oct 22 08:22:08 venux kernel: See Documentation/networking/vortex.txt
+Oct 22 08:22:08 venux kernel: 06:00.0: 3Com PCI 3CCFE575BT Cyclone CardBus at 0x4800. Vers LK1.1.16
+Oct 22 08:22:08 venux kernel:  00:50:04:8c:7a:ed, IRQ 11
+Oct 22 08:22:08 venux kernel:   product code 5458 rev 07.1 date 06-23-99
+Oct 22 08:22:08 venux kernel: 06:00.0: CardBus functions mapped 11000080->c8844080
+Oct 22 08:22:08 venux kernel:   8K byte-wide RAM 5:3 Rx:Tx split, MII interface.
+Oct 22 08:22:08 venux kernel:   MII transceiver found at address 0, status 7809.
+Oct 22 08:22:08 venux kernel:   Enabling bus-master transmits and whole-frame receives.
+Oct 22 08:22:08 venux kernel: 06:00.0: scatter/gather enabled. h/w checksums enabled
+Oct 22 08:22:08 venux cardmgr[905]: socket 1: CardBus hotplug device
+Oct 22 08:22:08 venux /etc/hotplug/net.agent: invoke ifup eth0
+Oct 22 08:22:09 venux /etc/hotplug/pci.agent: ... no modules for PCI slot 06:00.0
+Oct 22 08:22:15 venux dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5
+Oct 22 08:22:15 venux dhclient: DHCPOFFER from 149.236.60.2
+Oct 22 08:22:15 venux dhclient: DHCPREQUEST on eth0 to 255.255.255.255 port 67
+Oct 22 08:22:16 venux dhclient: DHCPACK from 149.236.60.2
+Oct 22 08:22:16 venux dhclient: bound to 149.236.66.250 -- renewal in 32906 seconds.
+Oct 22 08:22:16 venux dhclient: receive_packet failed on eth0: Network is down
+oct 22 08:26:09 venux su(pam_unix)[7848]: session opened for user root by ccb(uid=500)
+oct 22 08:27:28 venux su(pam_unix)[7848]: session closed for user root
+Oct 22 08:32:57 venux dhclient: receive_packet failed on eth0: Network is down
+Oct 22 08:32:58 venux dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6
+Oct 22 08:33:04 venux dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 12
+Oct 22 08:33:16 venux dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 16
+Oct 22 08:33:32 venux dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Oct 22 08:33:43 venux dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Oct 22 08:33:54 venux dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5
+Oct 22 08:33:59 venux dhclient: No DHCPOFFERS received.
+oct 22 08:39:51 venux su(pam_unix)[7997]: session opened for user root by ccb(uid=500)
+Oct 22 12:06:18 venux dhclient: DHCPREQUEST on eth0 to 255.255.255.255 port 67
+Oct 22 12:06:19 venux dhclient: DHCPACK from 149.236.60.2
+Oct 22 12:06:19 venux dhclient: bound to 149.236.66.250 -- renewal in 36713 seconds.
+Oct 22 12:06:26 venux vsftpd: warning: can't get client address: Bad file descriptor
+Oct 22 12:06:27 venux vsftpd: warning: can't get client address: Bad file descriptor
+Oct 22 12:08:02 venux vsftpd: warning: can't get client address: Bad file descriptor
+oct 22 13:28:41 venux su(pam_unix)[7997]: session closed for user root
+oct 22 13:31:15 venux su(pam_unix)[8418]: session opened for user root by ccb(uid=500)
+oct 22 14:14:32 venux su(pam_unix)[8596]: session opened for user root by ccb(uid=500)
+Oct 22 14:21:32 venux apmd[929]: Now using Battery Power
+Oct 22 14:21:32 venux apmd[929]: Battery: -0.019413 (6:01) 4294967293 days, 4294967283:4294967246 (100% 3:20)
+Oct 22 14:55:43 venux kernel: Chargement du module procfs
+Oct 22 14:56:10 venux kernel: Valeur 23 ecrite dans /proc/test
+Oct 22 14:57:14 venux kernel: Dechargement du module procfs
+oct 22 15:01:19 venux su(pam_unix)[8418]: session closed for user root
+oct 22 15:01:23 venux su(pam_unix)[8596]: session closed for user root
+Oct 22 15:01:29 venux init: Switching to runlevel: 0
+Oct 22 15:01:30 venux xdm(pam_unix)[1113]: session closed for user ccb
+Oct 22 15:01:31 venux dhclient: receive_packet failed on eth0: Network is down
+Oct 22 15:01:31 venux kernel: cs: cb_free(bus 6)
+Oct 22 15:01:31 venux /etc/hotplug/pci.agent: PCI remove event not supported
+Oct 22 15:01:31 venux /etc/hotplug/net.agent: NET unregister event not supported
+oct 22 15:01:33 venux atd: Arrêt de atd succeeded
+oct 22 15:01:33 venux rc: Stopping keytable:  succeeded
+oct 22 15:01:34 venux cups: Arrêt de cupsd succeeded
+Oct 22 15:01:34 venux xfs[1075]: terminating 
+oct 22 15:01:36 venux xfs: Arrêt de xfs succeeded
+oct 22 15:01:36 venux gpm: Arrêt de gpm succeeded
+oct 22 15:01:36 venux sshd: sshd -TERM succeeded
+oct 22 15:01:37 venux vsftpd: Arrêt de vsftpd succeeded
+Oct 22 15:01:37 venux xinetd[4348]: Exiting...
+oct 22 15:01:38 venux xinetd: Arrêt de xinetd succeeded
+oct 22 15:01:38 venux crond: Arrêt de crond succeeded
+Oct 22 15:01:38 venux apmd[929]: Exiting
+oct 22 15:01:39 venux apmd: Arrêt de apmd succeeded
+oct 22 15:01:40 venux dd: 1+0 enregistrements lus.
+oct 22 15:01:40 venux dd: 1+0 enregistrements écrits.
+oct 22 15:01:40 venux random: Sauvegarde du random seed : succeeded
+oct 22 15:01:40 venux portmap: Arrêt de portmap succeeded
+Oct 22 15:01:40 venux kernel: Kernel logging (proc) stopped.
+Oct 22 15:01:40 venux kernel: Kernel log daemon terminating.
+oct 22 15:01:41 venux syslog: Arrêt de klogd succeeded
+Oct 22 15:01:42 venux exiting on signal 15
+Oct 22 15:04:48 venux syslogd 1.4.1: restart.
+oct 22 15:04:48 venux syslog: Démarrage de syslogd  succeeded
+Oct 22 15:04:48 venux kernel: klogd 1.4.1, log source = /proc/kmsg started.
+Oct 22 15:04:48 venux kernel: Linux version 2.4.4-rtl (root@venux) (version gcc 2.96 20000731 (Red Hat Linux 7.3 2.96-118)) #5 ven sep 5 12:41:00 CEST 2003
+Oct 22 15:04:48 venux kernel: BIOS-provided physical RAM map:
+Oct 22 15:04:48 venux kernel:  BIOS-e820: 0000000000000000 - 000000000009f800 (usable)
+Oct 22 15:04:48 venux kernel:  BIOS-e820: 000000000009f800 - 00000000000a0000 (reserved)
+Oct 22 15:04:48 venux kernel:  BIOS-e820: 00000000000eb800 - 0000000000100000 (reserved)
+Oct 22 15:04:48 venux kernel:  BIOS-e820: 0000000000100000 - 0000000008000000 (usable)
+Oct 22 15:04:48 venux kernel:  BIOS-e820: 00000000fffeb800 - 0000000100000000 (reserved)
+Oct 22 15:04:48 venux kernel: On node 0 totalpages: 32768
+Oct 22 15:04:48 venux kernel: zone(0): 4096 pages.
+Oct 22 15:04:48 venux kernel: zone(1): 28672 pages.
+Oct 22 15:04:48 venux kernel: zone(2): 0 pages.
+oct 22 15:04:48 venux syslog: Démarrage de klogd  succeeded
+Oct 22 15:04:48 venux kernel: Kernel command line: auto BOOT_IMAGE=RT-Linux ro root=305 BOOT_FILE=/boot/rtlinuz-2.4.4
+Oct 22 15:04:48 venux kernel: Initializing CPU#0
+Oct 22 15:04:49 venux kernel: Detected 400.013 MHz processor.
+Oct 22 15:04:49 venux kernel: Console: colour VGA+ 80x25
+Oct 22 15:04:49 venux kernel: Calibrating delay loop... 797.90 BogoMIPS
+Oct 22 15:04:49 venux kernel: Memory: 126388k/131072k available (1242k kernel code, 4296k reserved, 370k data, 208k init, 0k highmem)
+Oct 22 15:04:49 venux kernel: Dentry-cache hash table entries: 16384 (order: 5, 131072 bytes)
+Oct 22 15:04:49 venux kernel: Buffer-cache hash table entries: 8192 (order: 3, 32768 bytes)
+oct 22 15:04:49 venux portmap: Démarrage de portmap  succeeded
+Oct 22 15:04:49 venux kernel: Page-cache hash table entries: 32768 (order: 5, 131072 bytes)
+Oct 22 15:04:49 venux kernel: Inode-cache hash table entries: 8192 (order: 4, 65536 bytes)
+Oct 22 15:04:49 venux kernel: CPU: L1 I cache: 16K, L1 D cache: 16K
+Oct 22 15:04:49 venux kernel: CPU: L2 cache: 128K
+Oct 22 15:04:49 venux kernel: Intel machine check architecture supported.
+Oct 22 15:04:49 venux kernel: Intel machine check reporting enabled on CPU#0.
+oct 22 15:04:49 venux keytable: 
+oct 22 15:04:49 venux keytable: Chargement des polices du système :
+Oct 22 15:04:49 venux kernel: CPU: Intel Celeron (Mendocino) stepping 0a
+Oct 22 15:04:49 venux kernel: Enabling fast FPU save and restore... done.
+Oct 22 15:04:49 venux kernel: Checking 'hlt' instruction... OK.
+Oct 22 15:04:49 venux kernel: POSIX conformance testing by UNIFIX
+oct 22 15:04:49 venux keytable: 
+Oct 22 15:04:49 venux kernel: PCI: PCI BIOS revision 2.10 entry at 0xfd9d3, last bus=1
+Oct 22 15:04:49 venux kernel: PCI: Using configuration type 1
+Oct 22 15:04:49 venux kernel: PCI: Probing PCI hardware
+Oct 22 15:04:49 venux kernel: Unknown bridge resource 2: assuming transparent
+Oct 22 15:04:49 venux kernel: PCI: Using IRQ router PIIX [8086/7110] at 00:07.0
+Oct 22 15:04:49 venux kernel: PCI: Found IRQ 11 for device 00:04.0
+Oct 22 15:04:49 venux kernel: PCI: The same IRQ used for device 01:00.0
+Oct 22 15:04:49 venux kernel: PCI: Found IRQ 11 for device 00:04.1
+oct 22 15:04:49 venux rc: Starting keytable:  succeeded
+Oct 22 15:04:49 venux kernel:   got res[10000000:10000fff] for resource 0 of Texas Instruments PCI1220
+Oct 22 15:04:49 venux kernel:   got res[10001000:10001fff] for resource 0 of Texas Instruments PCI1220 (#2)
+Oct 22 15:04:49 venux kernel: Limiting direct PCI/PCI transfers.
+Oct 22 15:04:50 venux kernel: isapnp: Scanning for PnP cards...
+Oct 22 15:04:50 venux kernel: isapnp: No Plug & Play device found
+Oct 22 15:04:50 venux kernel: Linux NET4.0 for Linux 2.4
+Oct 22 15:04:50 venux kernel: Based upon Swansea University Computer Society NET3.039
+Oct 22 15:04:50 venux kernel: Starting kswapd v1.8
+Oct 22 15:04:50 venux kernel: pty: 256 Unix98 ptys configured
+Oct 22 15:04:50 venux kernel: block: queued sectors max/low 83936kB/27978kB, 256 slots per queue
+oct 22 15:04:50 venux random: Initialisation du générateur de nombre aléatoire : succeeded
+Oct 22 15:04:50 venux kernel: RAMDISK driver initialized: 16 RAM disks of 4096K size 1024 blocksize
+Oct 22 15:04:50 venux kernel: Uniform Multi-Platform E-IDE driver Revision: 6.31
+Oct 22 15:04:50 venux kernel: ide: Assuming 33MHz system bus speed for PIO modes; override with idebus=xx
+Oct 22 15:04:50 venux kernel: PIIX4: IDE controller on PCI bus 00 dev 39
+Oct 22 15:04:50 venux kernel: PIIX4: chipset revision 1
+Oct 22 15:04:50 venux kernel: PIIX4: not 100%% native mode: will probe irqs later
+Oct 22 15:04:50 venux kernel: hda: IBM-DCYA-214000, ATA DISK drive
+Oct 22 15:04:50 venux kernel: hdc: TOSHIBA CD-ROM XM-1902B, ATAPI CD/DVD-ROM drive
+Oct 22 15:04:50 venux kernel: ide0 at 0x1f0-0x1f7,0x3f6 on irq 14
+Oct 22 15:04:50 venux kernel: ide1 at 0x170-0x177,0x376 on irq 15
+Oct 22 15:04:50 venux kernel: hda: 27609120 sectors (14136 MB) w/420KiB Cache, CHS=1826/240/63
+Oct 22 15:04:50 venux kernel: hdc: ATAPI 24X CD-ROM drive, 128kB Cache
+Oct 22 15:04:50 venux kernel: Uniform CD-ROM driver Revision: 3.12
+Oct 22 15:04:50 venux kernel: Partition check:
+Oct 22 15:04:50 venux kernel:  hda: hda1 hda2 < hda5 hda6 hda7 hda8 >
+Oct 22 15:04:50 venux kernel: Floppy drive(s): fd0 is 1.44M
+Oct 22 15:04:50 venux kernel: FDC 0 is a post-1991 82077
+Oct 22 15:04:50 venux kernel: loop: loaded (max 8 devices)
+Oct 22 15:04:50 venux kernel: Serial driver version 5.05a (2001-03-20) with MANY_PORTS SHARE_IRQ SERIAL_PCI ISAPNP enabled
+Oct 22 15:04:50 venux kernel: ttyS00 at 0x03f8 (irq = 4) is a 16550A
+Oct 22 15:04:50 venux kernel: Real Time Clock Driver v1.10d
+Oct 22 15:04:50 venux kernel: PPP generic driver version 2.4.1
+Oct 22 15:04:50 venux kernel: PPP Deflate Compression module registered
+Oct 22 15:04:50 venux kernel: PPP BSD Compression module registered
+Oct 22 15:04:50 venux kernel: Linux agpgart interface v0.99 (c) Jeff Hartmann
+oct 22 15:04:50 venux pcmcia: Starting PCMCIA services:
+Oct 22 15:04:50 venux kernel: agpgart: Maximum main memory to use for agp memory: 96M
+Oct 22 15:04:50 venux kernel: agpgart: Detected Intel 440BX chipset
+oct 22 15:04:50 venux pcmcia:  cardmgr.
+Oct 22 15:04:50 venux kernel: agpgart: AGP aperture is 64M @ 0xe0000000
+Oct 22 15:04:50 venux cardmgr[856]: starting, version is 3.1.31
+Oct 22 15:04:50 venux kernel: [drm] AGP 0.99 on Intel 440BX @ 0xe0000000 64MB
+oct 22 15:04:50 venux rc: Starting pcmcia:  succeeded
+Oct 22 15:04:50 venux kernel: [drm] Initialized r128 2.1.2 20001215 on minor 63
+Oct 22 15:04:50 venux cardmgr[856]: watching 2 sockets
+Oct 22 15:04:50 venux kernel: [drm] AGP 0.99 on Intel 440BX @ 0xe0000000 64MB
+Oct 22 15:04:50 venux cardmgr[856]: Card Services release does not match
+Oct 22 15:04:50 venux kernel: [drm] Initialized radeon 1.0.0 20010105 on minor 62
+Oct 22 15:04:50 venux cardmgr[856]: could not adjust resource: IO ports 0xc00-0xcff: Device or resource busy
+Oct 22 15:04:51 venux kernel: SCSI subsystem driver Revision: 1.00
+Oct 22 15:04:51 venux cardmgr[856]: could not adjust resource: IO ports 0x100-0x4ff: Device or resource busy
+Oct 22 15:04:51 venux kernel: request_module[scsi_hostadapter]: Root fs not mounted
+Oct 22 15:04:51 venux cardmgr[856]: could not adjust resource: memory 0xc0000-0xfffff: Input/output error
+Oct 22 15:04:31 venux rc.sysinit: -e 
+Oct 22 15:04:51 venux kernel: request_module[scsi_hostadapter]: Root fs not mounted
+Oct 22 15:04:51 venux cardmgr[856]: could not adjust resource: memory 0x60000000-0x60ffffff: Input/output error
+Oct 22 15:04:31 venux rc.sysinit: Montage du système de fichiers proc : succeeded 
+Oct 22 15:04:51 venux kernel: request_module[scsi_hostadapter]: Root fs not mounted
+Oct 22 15:04:51 venux cardmgr[856]: could not adjust resource: memory 0xa0000000-0xa0ffffff: Input/output error
+Oct 22 15:04:31 venux sysctl: net.ipv4.ip_forward = 0 
+oct 22 15:04:51 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+Oct 22 15:04:51 venux kernel: maestro: version 0.14 time 12:47:16 Sep  5 2003
+Oct 22 15:04:51 venux cardmgr[856]: could not adjust resource: IO ports 0xa00-0xaff: Device or resource busy
+Oct 22 15:04:31 venux sysctl: net.ipv4.conf.default.rp_filter = 1 
+Oct 22 15:04:51 venux kernel: PCI: Found IRQ 5 for device 00:08.0
+Oct 22 15:04:31 venux rc.sysinit: Configuration des paramètres du noyau : succeeded 
+Oct 22 15:04:51 venux kernel: maestro: Configuring ESS Maestro 2 found at IO 0xF800 IRQ 5
+Oct 22 15:04:31 venux date: mer oct 22 15:04:30 CEST 2003 
+Oct 22 15:04:51 venux kernel: maestro:  subvendor id: 0x00851028
+Oct 22 15:04:31 venux rc.sysinit: Configuraton de l'horloge  (localtime) : mer oct 22 15:04:30 CEST 2003 succeeded 
+Oct 22 15:04:51 venux kernel: maestro: not attempting power management.
+Oct 22 15:04:31 venux rc.sysinit: Chargement de la configuration clavier par défaut succeeded 
+Oct 22 15:04:51 venux kernel: maestro: AC97 Codec detected: v: 0x41445303 caps: 0x400 pwr: 0xf
+Oct 22 15:04:31 venux rc.sysinit: Configuration du nom d'hôte venux : succeeded 
+Oct 22 15:04:51 venux kernel: maestro: 1 channels configured.
+Oct 22 15:04:31 venux mount: mount : type fs usbdevfs non pris en charge par le kernel 
+Oct 22 15:04:51 venux kernel: Linux PCMCIA Card Services 3.1.22
+Oct 22 15:04:31 venux rc.sysinit: Montage du système de fichiers USB : failed 
+Oct 22 15:04:51 venux kernel:   options:  [pci] [cardbus]
+Oct 22 15:04:31 venux modprobe: modprobe: Can't locate module hid 
+Oct 22 15:04:51 venux kernel: PCI: Found IRQ 11 for device 00:04.0
+Oct 22 15:04:31 venux rc.sysinit: Initialisation de l'interface USB HID : failed 
+Oct 22 15:04:51 venux kernel: PCI: The same IRQ used for device 01:00.0
+Oct 22 15:04:31 venux modprobe: modprobe: Can't locate module keybdev 
+Oct 22 15:04:51 venux kernel: PCI: Found IRQ 11 for device 00:04.1
+oct 22 15:04:51 venux autofs: automount startup succeeded
+Oct 22 15:04:31 venux rc.sysinit: Initialisation du clavier USB : failed 
+Oct 22 15:04:51 venux kernel: usb.c: registered new driver hub
+Oct 22 15:04:31 venux modprobe: modprobe: Can't locate module mousedev 
+Oct 22 15:04:51 venux kernel: Yenta IRQ list 0698, PCI irq11
+Oct 22 15:04:31 venux rc.sysinit: Initialisation de la souris USB :  failed 
+Oct 22 15:04:51 venux kernel: Socket status: 30000006
+Oct 22 15:04:31 venux fsck: /: clean, 128694/468640 files, 734356/935542 blocks 
+Oct 22 15:04:52 venux kernel: Yenta IRQ list 0698, PCI irq11
+Oct 22 15:04:31 venux rc.sysinit: Vérification du système de fichiers racine : succeeded 
+Oct 22 15:04:52 venux kernel: Socket status: 30000006
+Oct 22 15:04:31 venux rc.sysinit: Remontage du système de fichiers racine en mode lecture-écriture : succeeded 
+Oct 22 15:04:52 venux kernel: PCI: Found IRQ 11 for device 00:07.2
+Oct 22 15:04:31 venux rc.sysinit: Activation des partitions swap : succeeded 
+Oct 22 15:04:52 venux kernel: uhci.c: USB UHCI at I/O 0xfce0, IRQ 11
+oct 22 15:04:32 venux rc.sysinit: Recherche des dépendances de modules : succeeded 
+Oct 22 15:04:52 venux kernel: usb.c: new USB bus registered, assigned bus number 1
+oct 22 15:04:32 venux devlabel: devlabel service started/restarted 
+Oct 22 15:04:53 venux kernel: hub.c: USB hub found
+oct 22 15:04:35 venux rc.sysinit: Vérification de systèmes de fichiers succeeded 
+Oct 22 15:04:53 venux kernel: hub.c: 2 ports detected
+oct 22 15:04:35 venux rc.sysinit: Montage des systèmes de fichiers locaux : succeeded 
+Oct 22 15:04:53 venux kernel: Initializing USB Mass Storage driver...
+oct 22 15:04:36 venux rc.sysinit: Activation de l'espace swap :  succeeded 
+Oct 22 15:04:53 venux kernel: usb.c: registered new driver usb-storage
+Oct 22 15:04:39 venux init: Entering runlevel: 5 
+Oct 22 15:04:54 venux kernel: USB Mass Storage support registered.
+oct 22 15:04:47 venux kudzu:  succeeded 
+Oct 22 15:04:54 venux kernel: NET4: Linux TCP/IP 1.0 for NET4.0
+oct 22 15:04:47 venux kudzu: Mise à jour de /etc/fstab succeeded 
+oct 22 15:04:54 venux sshd:  succeeded
+Oct 22 15:04:54 venux kernel: IP Protocols: ICMP, UDP, TCP, IGMP
+oct 22 15:04:47 venux sysctl: net.ipv4.ip_forward = 0 
+Oct 22 15:04:54 venux kernel: IP: routing cache hash table of 1024 buckets, 8Kbytes
+oct 22 15:04:47 venux sysctl: net.ipv4.conf.default.rp_filter = 1 
+Oct 22 15:04:54 venux kernel: TCP: Hash tables configured (established 8192 bind 8192)
+oct 22 15:04:47 venux network: Configuration des paramètres réseau : succeeded 
+Oct 22 15:04:54 venux kernel: NET4: Unix domain sockets 1.0/SMP for Linux NET4.0.
+Oct 22 15:04:48 venux modprobe: modprobe: Can't locate module net-pf-16 
+Oct 22 15:04:54 venux kernel: VFS: Mounted root (ext2 filesystem) readonly.
+oct 22 15:04:48 venux ifup: Cannot open netlink socket: Address family not supported by protocol 
+Oct 22 15:04:54 venux kernel: Freeing unused kernel memory: 208k freed
+oct 22 15:04:48 venux network: Montage de l'interface : succeeded 
+Oct 22 15:04:54 venux kernel: uhci: host controller halted. very bad
+Oct 22 15:04:48 venux modprobe: modprobe: Can't locate module net-pf-16 
+Oct 22 15:04:54 venux kernel: Adding Swap: 136040k swap-space (priority -1)
+oct 22 15:04:48 venux ifup: Cannot open netlink socket: Address family not supported by protocol 
+Oct 22 15:04:54 venux kernel: cs: IO port probe 0x0c00-0x0cff: clean.
+oct 22 15:04:48 venux ifup: Le dispositif 3c59x n'étant pas présent, l'initialisation de eth0 sera retardée. 
+Oct 22 15:04:55 venux kernel: cs: IO port probe 0x0100-0x04ff: excluding 0x378-0x37f 0x4d0-0x4d7
+oct 22 15:04:48 venux network: Montage de l'interface eth0 : failed 
+Oct 22 15:04:55 venux kernel: cs: IO port probe 0x0a00-0x0aff: clean.
+Oct 22 15:04:56 venux xinetd[922]: xinetd Version 2.3.11 started with libwrap loadavg options compiled in.
+Oct 22 15:04:56 venux xinetd[922]: Started working: 2 available services
+Oct 22 15:04:58 venux xinetd: Démarrage de xinetd  succeeded
+oct 22 15:04:58 venux vsftpd: Démarrage de true  succeeded
+oct 22 15:04:58 venux gpm: Démarrage de gpm  succeeded
+oct 22 15:04:59 venux crond: Démarrage de crond  succeeded
+Oct 22 15:05:00 venux modprobe: modprobe: Can't locate module char-major-6
+Oct 22 15:05:00 venux last message repeated 7 times
+Oct 22 15:05:00 venux modprobe: modprobe: Can't locate module char-major-188
+Oct 22 15:05:00 venux last message repeated 15 times
+oct 22 15:05:00 venux cupsd: cupsd: Child exited with status 99!
+oct 22 15:05:00 venux cups: Démarrage de cupsd  succeeded
+oct 22 15:05:01 venux xfs: Démarrage de xfs  succeeded
+oct 22 15:05:02 venux anacron: Démarrage de anacron  succeeded
+Oct 22 15:05:02 venux xfs: ignoring font path element /usr/X11R6/lib/X11/fonts/cyrillic (unreadable) 
+oct 22 15:05:02 venux atd: Démarrage de atd  succeeded
+Oct 22 15:05:14 venux modprobe: modprobe: Can't locate module char-major-10-134
+Oct 22 15:05:17 venux modprobe: modprobe: Can't locate module char-major-13
+Oct 22 15:05:28 venux modprobe: modprobe: Can't locate module char-major-10-134
+Oct 22 15:05:48 venux last message repeated 2 times
+Oct 22 15:05:49 venux modprobe: modprobe: Can't locate module char-major-13
+Oct 22 15:06:01 venux login(pam_unix)[1049]: session opened for user root by LOGIN(uid=0)
+Oct 22 15:06:01 venux  -- root[1049]: ROOT LOGIN ON tty2
+Oct 22 15:06:03 venux init: Switching to runlevel: 3
+oct 22 15:06:05 venux vsftpd: Arrêt de vsftpd succeeded
+oct 22 15:06:05 venux autofs: automount startup succeeded
+oct 22 15:06:05 venux vsftpd: Démarrage de true  succeeded
+Oct 22 15:06:14 venux init: Switching to runlevel: 5
+oct 22 15:06:14 venux vsftpd: Arrêt de vsftpd succeeded
+oct 22 15:06:15 venux autofs: automount startup succeeded
+oct 22 15:06:15 venux vsftpd: Démarrage de true  succeeded
+Oct 22 15:06:25 venux modprobe: modprobe: Can't locate module char-major-10-134
+Oct 22 15:06:26 venux modprobe: modprobe: Can't locate module char-major-13
+Oct 22 15:06:39 venux xdm(pam_unix)[1277]: session opened for user ccb by (uid=0)
+Oct 22 15:06:57 venux kernel: EXT2-fs warning: mounting unchecked fs, running e2fsck is recommended
+oct 22 15:07:45 venux su(pam_unix)[1426]: session opened for user root by ccb(uid=500)
+Oct 22 15:08:36 venux kernel: RTLinux Extensions Loaded (http://www.fsmlabs.com/)
+oct 22 15:08:37 venux su(pam_unix)[1426]: session closed for user root
+oct 22 15:08:49 venux su(pam_unix)[1478]: session opened for user root by ccb(uid=500)
+oct 22 16:45:05 venux su(pam_unix)[1478]: session closed for user root
+Oct 22 16:45:10 venux init: Switching to runlevel: 0
+Oct 22 16:45:11 venux login(pam_unix)[1049]: session closed for user root
+Oct 22 16:45:11 venux xdm(pam_unix)[1277]: session closed for user ccb
+oct 22 16:45:12 venux atd: Arrêt de atd succeeded
+oct 22 16:45:13 venux rc: Stopping keytable:  succeeded
+oct 22 16:45:13 venux cups: Arrêt de cupsd failed
+Oct 22 16:45:13 venux xfs[1024]: terminating 
+oct 22 16:45:13 venux xfs: Arrêt de xfs succeeded
+oct 22 16:45:13 venux gpm: Arrêt de gpm succeeded
+oct 22 16:45:14 venux sshd: sshd -TERM succeeded
+oct 22 16:45:14 venux vsftpd: Arrêt de vsftpd succeeded
+Oct 22 16:45:14 venux xinetd[922]: Exiting...
+oct 22 16:45:14 venux xinetd: Arrêt de xinetd succeeded
+oct 22 16:45:15 venux crond: Arrêt de crond succeeded
+oct 22 16:45:15 venux random: Sauvegarde du random seed : succeeded
+oct 22 16:45:16 venux portmap: Arrêt de portmap succeeded
+Oct 22 16:45:16 venux kernel: Kernel logging (proc) stopped.
+Oct 22 16:45:16 venux kernel: Kernel log daemon terminating.
+oct 22 16:45:17 venux syslog: Arrêt de klogd succeeded
+Oct 22 16:45:17 venux exiting on signal 15
+Oct 23 09:03:12 venux syslogd 1.4.1: restart.
+oct 23 09:03:12 venux syslog: Démarrage de syslogd  succeeded
+oct 23 09:03:12 venux syslog: Démarrage de klogd  succeeded
+Oct 23 09:03:12 venux kernel: klogd 1.4.1, log source = /proc/kmsg started.
+Oct 23 09:03:12 venux kernel: Linux version 2.4.21-20031020 (root@venux) (version gcc 3.2.2 20030222 (Red Hat Linux 3.2.2-5)) #3 lun oct 20 18:19:16 CEST 2003
+Oct 23 09:03:12 venux kernel: BIOS-provided physical RAM map:
+Oct 23 09:03:12 venux kernel:  BIOS-e820: 0000000000000000 - 000000000009f800 (usable)
+Oct 23 09:03:12 venux kernel:  BIOS-e820: 000000000009f800 - 00000000000a0000 (reserved)
+Oct 23 09:03:12 venux kernel:  BIOS-e820: 00000000000eb800 - 0000000000100000 (reserved)
+Oct 23 09:03:12 venux kernel:  BIOS-e820: 0000000000100000 - 0000000008000000 (usable)
+Oct 23 09:03:12 venux kernel:  BIOS-e820: 00000000fffeb800 - 0000000100000000 (reserved)
+Oct 23 09:03:12 venux kernel: 128MB LOWMEM available.
+Oct 23 09:03:12 venux kernel: On node 0 totalpages: 32768
+Oct 23 09:03:12 venux kernel: zone(0): 4096 pages.
+Oct 23 09:03:12 venux kernel: zone(1): 28672 pages.
+Oct 23 09:03:12 venux kernel: zone(2): 0 pages.
+Oct 23 09:03:12 venux kernel: Kernel command line: auto BOOT_IMAGE=linux-20.10.03 ro root=305 BOOT_FILE=/boot/vmlinuz-2.4.21-20031020
+Oct 23 09:03:12 venux kernel: Initializing CPU#0
+Oct 23 09:03:12 venux kernel: Detected 400.014 MHz processor.
+Oct 23 09:03:13 venux kernel: Console: colour VGA+ 80x25
+Oct 23 09:03:13 venux kernel: Calibrating delay loop... 797.90 BogoMIPS
+oct 23 09:03:13 venux portmap: Démarrage de portmap  succeeded
+Oct 23 09:03:13 venux kernel: Memory: 126412k/131072k available (1898k kernel code, 4272k reserved, 640k data, 96k init, 0k highmem)
+Oct 23 09:03:13 venux kernel: Dentry cache hash table entries: 16384 (order: 5, 131072 bytes)
+Oct 23 09:03:13 venux kernel: Inode cache hash table entries: 8192 (order: 4, 65536 bytes)
+Oct 23 09:03:13 venux kernel: Mount cache hash table entries: 512 (order: 0, 4096 bytes)
+Oct 23 09:03:13 venux kernel: Buffer-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Oct 23 09:03:13 venux kernel: Page-cache hash table entries: 32768 (order: 5, 131072 bytes)
+Oct 23 09:03:13 venux kernel: CPU: L1 I cache: 16K, L1 D cache: 16K
+Oct 23 09:03:13 venux kernel: CPU: L2 cache: 128K
+Oct 23 09:03:13 venux kernel: Intel machine check architecture supported.
+Oct 23 09:03:13 venux kernel: Intel machine check reporting enabled on CPU#0.
+oct 23 09:03:13 venux keytable: Chargement de la configuration clavier :
+Oct 23 09:03:13 venux kernel: CPU: Intel Celeron (Mendocino) stepping 0a
+Oct 23 09:03:13 venux kernel: Enabling fast FPU save and restore... done.
+Oct 23 09:03:13 venux kernel: Checking 'hlt' instruction... OK.
+Oct 23 09:03:13 venux kernel: POSIX conformance testing by UNIFIX
+Oct 23 09:03:13 venux kernel: PCI: PCI BIOS revision 2.10 entry at 0xfd9d3, last bus=1
+Oct 23 09:03:13 venux kernel: PCI: Using configuration type 1
+Oct 23 09:03:13 venux kernel: PCI: Probing PCI hardware
+Oct 23 09:03:13 venux kernel: PCI: Using IRQ router PIIX [8086/7110] at 00:07.0
+oct 23 09:03:13 venux keytable: 
+oct 23 09:03:13 venux keytable: Chargement des polices du système :
+Oct 23 09:03:13 venux kernel: PCI: Found IRQ 11 for device 00:04.0
+Oct 23 09:03:13 venux kernel: PCI: Sharing IRQ 11 with 01:00.0
+oct 23 09:03:13 venux keytable: 
+Oct 23 09:03:13 venux kernel: PCI: Found IRQ 11 for device 00:04.1
+Oct 23 09:03:13 venux kernel: Limiting direct PCI/PCI transfers.
+oct 23 09:03:13 venux rc: Starting keytable:  succeeded
+Oct 23 09:03:13 venux kernel: isapnp: Scanning for PnP cards...
+Oct 23 09:03:13 venux kernel: isapnp: No Plug & Play device found
+Oct 23 09:03:13 venux kernel: Linux NET4.0 for Linux 2.4
+Oct 23 09:03:13 venux kernel: Based upon Swansea University Computer Society NET3.039
+Oct 23 09:03:13 venux kernel: Initializing RT netlink socket
+Oct 23 09:03:13 venux kernel: apm: BIOS version 1.2 Flags 0x03 (Driver version 1.16)
+Oct 23 09:03:13 venux kernel: Starting kswapd
+Oct 23 09:03:13 venux kernel: Journalled Block Device driver loaded
+Oct 23 09:03:13 venux kernel: Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+oct 23 09:03:11 venux network: Montage de l'interface : succeeded 
+Oct 23 09:03:14 venux kernel: pty: 256 Unix98 ptys configured
+Oct 23 09:03:14 venux kernel: i8k: unable to get DMI information
+Oct 23 09:03:14 venux kernel: i8k: vendor=?, model=?, version=?
+Oct 23 09:03:14 venux kernel: i8k: unable to get SMM Dell signature
+oct 23 09:03:14 venux random: Initialisation du générateur de nombre aléatoire : succeeded
+Oct 23 09:03:14 venux kernel: i8k: unable to get SMM BIOS version
+Oct 23 09:03:14 venux kernel: Serial driver version 5.05c (2001-07-08) with MANY_PORTS SHARE_IRQ SERIAL_PCI ISAPNP enabled
+Oct 23 09:03:14 venux kernel: ttyS00 at 0x03f8 (irq = 4) is a 16550A
+Oct 23 09:03:14 venux kernel: Real Time Clock Driver v1.10e
+Oct 23 09:03:14 venux kernel: Software Watchdog Timer: 0.05, timer margin: 60 sec
+Oct 23 09:03:14 venux kernel: Floppy drive(s): fd0 is 1.44M
+Oct 23 09:03:14 venux kernel: FDC 0 is a post-1991 82077
+Oct 23 09:03:14 venux kernel: RAMDISK driver initialized: 16 RAM disks of 4096K size 1024 blocksize
+Oct 23 09:03:14 venux kernel: loop: loaded (max 8 devices)
+Oct 23 09:03:14 venux kernel: PPP generic driver version 2.4.2
+Oct 23 09:03:14 venux kernel: PPP Deflate Compression module registered
+Oct 23 09:03:14 venux kernel: PPP BSD Compression module registered
+Oct 23 09:03:14 venux kernel: Linux agpgart interface v0.99 (c) Jeff Hartmann
+Oct 23 09:03:14 venux kernel: agpgart: Maximum main memory to use for agp memory: 96M
+Oct 23 09:03:14 venux kernel: agpgart: Detected Intel 440BX chipset
+Oct 23 09:03:14 venux kernel: agpgart: AGP aperture is 64M @ 0xe0000000
+Oct 23 09:03:14 venux kernel: [drm] AGP 0.99 on Intel 440BX @ 0xe0000000 64MB
+Oct 23 09:03:14 venux kernel: [drm] Initialized r128 2.2.0 20010917 on minor 0
+Oct 23 09:03:14 venux kernel: [drm] AGP 0.99 on Intel 440BX @ 0xe0000000 64MB
+Oct 23 09:03:14 venux kernel: [drm] Initialized radeon 1.1.1 20010405 on minor 1
+Oct 23 09:03:14 venux kernel: Uniform Multi-Platform E-IDE driver Revision: 7.00beta4-2.4
+Oct 23 09:03:14 venux kernel: ide: Assuming 33MHz system bus speed for PIO modes; override with idebus=xx
+Oct 23 09:03:14 venux kernel: PIIX4: IDE controller at PCI slot 00:07.1
+Oct 23 09:03:14 venux kernel: PIIX4: chipset revision 1
+oct 23 09:03:14 venux pcmcia: Starting PCMCIA services:
+Oct 23 09:03:14 venux kernel: PIIX4: not 100%% native mode: will probe irqs later
+Oct 23 09:03:15 venux kernel:     ide0: BM-DMA at 0xfcd0-0xfcd7, BIOS settings: hda:DMA, hdb:pio
+oct 23 09:03:15 venux pcmcia:  cardmgr.
+Oct 23 09:03:15 venux kernel:     ide1: BM-DMA at 0xfcd8-0xfcdf, BIOS settings: hdc:DMA, hdd:pio
+Oct 23 09:03:15 venux kernel: hda: IBM-DCYA-214000, ATA DISK drive
+Oct 23 09:03:15 venux kernel: blk: queue c03bbde0, I/O limit 4095Mb (mask 0xffffffff)
+Oct 23 09:03:15 venux kernel: hdc: TOSHIBA CD-ROM XM-1902B, ATAPI CD/DVD-ROM drive
+Oct 23 09:03:15 venux kernel: ide0 at 0x1f0-0x1f7,0x3f6 on irq 14
+Oct 23 09:03:15 venux cardmgr[906]: starting, version is 3.1.31
+Oct 23 09:03:15 venux kernel: ide1 at 0x170-0x177,0x376 on irq 15
+oct 23 09:03:15 venux rc: Starting pcmcia:  succeeded
+Oct 23 09:03:15 venux kernel: hda: attached ide-disk driver.
+Oct 23 09:03:15 venux cardmgr[906]: watching 2 sockets
+Oct 23 09:03:15 venux kernel: hda: host protected area => 1
+Oct 23 09:03:15 venux cardmgr[906]: Card Services release does not match
+Oct 23 09:03:15 venux kernel: hda: 27609120 sectors (14136 MB) w/420KiB Cache, CHS=1826/240/63, UDMA(33)
+Oct 23 09:03:15 venux cardmgr[906]: could not adjust resource: IO ports 0xc00-0xcff: Device or resource busy
+Oct 23 09:03:15 venux kernel: hdc: attached ide-cdrom driver.
+Oct 23 09:03:15 venux cardmgr[906]: could not adjust resource: IO ports 0x100-0x4ff: Device or resource busy
+Oct 23 09:03:15 venux kernel: hdc: ATAPI 24X CD-ROM drive, 128kB Cache, DMA
+Oct 23 09:03:15 venux cardmgr[906]: could not adjust resource: memory 0xc0000-0xfffff: Input/output error
+Oct 23 09:03:15 venux kernel: Uniform CD-ROM driver Revision: 3.12
+Oct 23 09:03:15 venux cardmgr[906]: could not adjust resource: memory 0x60000000-0x60ffffff: Input/output error
+Oct 23 09:03:15 venux kernel: Partition check:
+Oct 23 09:03:15 venux cardmgr[906]: could not adjust resource: memory 0xa0000000-0xa0ffffff: Input/output error
+Oct 23 09:03:15 venux kernel:  hda: hda1 hda2 < hda5 hda6 hda7 hda8 >
+Oct 23 09:03:15 venux cardmgr[906]: could not adjust resource: IO ports 0xa00-0xaff: Device or resource busy
+Oct 23 09:03:15 venux kernel: SCSI subsystem driver Revision: 1.00
+Oct 23 09:03:15 venux kernel: kmod: failed to exec /sbin/modprobe -s -k scsi_hostadapter, errno = 2
+Oct 23 09:03:15 venux kernel: raw1394: /dev/raw1394 device initialized
+Oct 23 09:03:15 venux kernel: maestro: version 0.15 time 18:26:27 Oct 20 2003
+Oct 23 09:03:15 venux kernel: PCI: Found IRQ 5 for device 00:08.0
+Oct 23 09:03:15 venux kernel: maestro: Configuring ESS Maestro 2 found at IO 0xF800 IRQ 5
+Oct 23 09:03:15 venux kernel: maestro:  subvendor id: 0x00851028
+Oct 23 09:03:15 venux kernel: maestro: not attempting power management.
+Oct 23 09:03:15 venux kernel: maestro: AC97 Codec detected: v: 0x41445303 caps: 0x400 pwr: 0xf
+Oct 23 09:03:15 venux kernel: maestro: 1 channels configured.
+Oct 23 09:03:15 venux kernel: Linux Kernel Card Services 3.1.22
+Oct 23 09:03:15 venux kernel:   options:  [pci] [cardbus] [pm]
+Oct 23 09:03:15 venux kernel: PCI: Found IRQ 11 for device 00:04.0
+Oct 23 09:03:15 venux kernel: PCI: Sharing IRQ 11 with 01:00.0
+Oct 23 09:03:15 venux kernel: PCI: Found IRQ 11 for device 00:04.1
+Oct 23 09:03:15 venux kernel: usb.c: registered new driver hub
+Oct 23 09:03:15 venux kernel: Yenta IRQ list 0698, PCI irq11
+oct 23 09:03:15 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+Oct 23 09:03:15 venux kernel: Socket status: 30000006
+Oct 23 09:03:15 venux kernel: Yenta IRQ list 0698, PCI irq11
+Oct 23 09:03:16 venux kernel: Socket status: 30000006
+Oct 23 09:03:16 venux kernel: host/usb-uhci.c: $Revision: 1.275 $ time 18:27:09 Oct 20 2003
+Oct 23 09:03:16 venux kernel: host/usb-uhci.c: High bandwidth mode enabled
+Oct 23 09:03:16 venux kernel: PCI: Found IRQ 11 for device 00:07.2
+Oct 23 09:03:16 venux kernel: host/usb-uhci.c: USB UHCI at I/O 0xfce0, IRQ 11
+Oct 23 09:03:16 venux kernel: host/usb-uhci.c: Detected 2 ports
+Oct 23 09:03:16 venux kernel: usb.c: new USB bus registered, assigned bus number 1
+Oct 23 09:03:16 venux kernel: hub.c: USB hub found
+Oct 23 09:03:16 venux kernel: hub.c: 2 ports detected
+Oct 23 09:03:16 venux kernel: host/usb-uhci.c: v1.275:USB Universal Host Controller Interface driver
+Oct 23 09:03:16 venux kernel: usb.c: registered new driver hid
+Oct 23 09:03:16 venux kernel: hid-core.c: v1.8.1 Andreas Gal, Vojtech Pavlik <vojtech@suse.cz>
+Oct 23 09:03:16 venux kernel: hid-core.c: USB HID support drivers
+Oct 23 09:03:16 venux kernel: Initializing USB Mass Storage driver...
+Oct 23 09:03:16 venux kernel: usb.c: registered new driver usb-storage
+Oct 23 09:03:16 venux kernel: USB Mass Storage support registered.
+Oct 23 09:03:16 venux kernel: Linux video capture interface: v1.00
+Oct 23 09:03:16 venux kernel: NET4: Linux TCP/IP 1.0 for NET4.0
+Oct 23 09:03:16 venux kernel: IP Protocols: ICMP, UDP, TCP, IGMP
+Oct 23 09:03:16 venux kernel: IP: routing cache hash table of 1024 buckets, 8Kbytes
+Oct 23 09:03:16 venux kernel: TCP: Hash tables configured (established 8192 bind 16384)
+Oct 23 09:03:16 venux kernel: NET4: Unix domain sockets 1.0/SMP for Linux NET4.0.
+Oct 23 09:03:16 venux kernel: kjournald starting.  Commit interval 5 seconds
+Oct 23 09:03:16 venux kernel: EXT3-fs: mounted filesystem with ordered data mode.
+Oct 23 09:03:16 venux kernel: VFS: Mounted root (ext3 filesystem) readonly.
+Oct 23 09:03:16 venux kernel: Freeing unused kernel memory: 96k freed
+Oct 23 09:03:16 venux kernel: EXT3 FS 2.4-0.9.19, 19 August 2002 on ide0(3,5), internal journal
+Oct 23 09:03:16 venux kernel: Adding Swap: 136040k swap-space (priority -1)
+Oct 23 09:03:16 venux apmd[930]: Version 3.0.2 (APM BIOS 1.2, Linux driver 1.16)
+Oct 23 09:03:16 venux kernel: parport0: PC-style at 0x378 [PCSPP(,...)]
+oct 23 09:03:16 venux apmd: Démarrage de apmd  succeeded
+oct 23 09:03:17 venux autofs: automount startup succeeded
+Oct 23 09:03:17 venux apmd[930]: Battery: * * * (100% 3:20)
+oct 23 09:03:18 venux sshd:  succeeded
+Oct 23 09:03:18 venux apmd[930]: Now using Battery Power
+Oct 23 09:03:19 venux xinetd[982]: xinetd Version 2.3.11 started with libwrap loadavg options compiled in.
+Oct 23 09:03:19 venux xinetd[982]: Started working: 2 available services
+Oct 23 09:03:22 venux xinetd: Démarrage de xinetd  succeeded
+oct 23 09:03:22 venux vsftpd: Démarrage de true  succeeded
+oct 23 09:03:22 venux gpm: Démarrage de gpm  succeeded
+oct 23 09:03:23 venux crond: Démarrage de crond  succeeded
+Oct 23 09:03:24 venux kernel: parport0: PC-style at 0x378 [PCSPP(,...)]
+Oct 23 09:03:24 venux kernel: lp0: using parport0 (polling).
+Oct 23 09:03:24 venux modprobe: modprobe: Can't locate module char-major-188
+Oct 23 09:03:24 venux last message repeated 15 times
+oct 23 09:03:24 venux cups: Démarrage de cupsd  succeeded
+oct 23 09:03:25 venux xfs: Démarrage de xfs  succeeded
+oct 23 09:03:26 venux anacron: Démarrage de anacron  succeeded
+oct 23 09:03:26 venux atd: Démarrage de atd  succeeded
+Oct 23 09:03:27 venux xfs: ignoring font path element /usr/X11R6/lib/X11/fonts/cyrillic (unreadable) 
+Oct 23 09:03:47 venux xdm(pam_unix)[1116]: session opened for user ccb by (uid=0)
+oct 23 09:31:01 venux su(pam_unix)[1257]: session opened for user root by ccb(uid=500)
+Oct 23 09:31:47 venux kernel: cs: cb_alloc(bus 6): vendor 0x10b7, device 0x5157
+Oct 23 09:31:47 venux kernel: PCI: Enabling device 06:00.0 (0000 -> 0003)
+Oct 23 09:31:47 venux kernel: 3c59x: Donald Becker and others. www.scyld.com/network/vortex.html
+Oct 23 09:31:47 venux kernel: See Documentation/networking/vortex.txt
+Oct 23 09:31:47 venux kernel: 06:00.0: 3Com PCI 3CCFE575BT Cyclone CardBus at 0x4800. Vers LK1.1.16
+Oct 23 09:31:47 venux kernel:  00:50:04:8c:7a:ed, IRQ 11
+Oct 23 09:31:47 venux kernel:   product code 5458 rev 07.1 date 06-23-99
+Oct 23 09:31:47 venux kernel: 06:00.0: CardBus functions mapped 11000080->c8842080
+Oct 23 09:31:47 venux kernel:   8K byte-wide RAM 5:3 Rx:Tx split, MII interface.
+Oct 23 09:31:47 venux kernel:   MII transceiver found at address 0, status 7809.
+Oct 23 09:31:47 venux kernel:   Enabling bus-master transmits and whole-frame receives.
+Oct 23 09:31:47 venux kernel: 06:00.0: scatter/gather enabled. h/w checksums enabled
+Oct 23 09:31:47 venux cardmgr[906]: socket 1: CardBus hotplug device
+Oct 23 09:31:48 venux /etc/hotplug/net.agent: invoke ifup eth0
+Oct 23 09:31:48 venux /etc/hotplug/pci.agent: ... no modules for PCI slot 06:00.0
+oct 23 09:31:53 venux su(pam_unix)[1257]: session closed for user root
+Oct 23 09:32:28 venux kernel: spurious 8259A interrupt: IRQ7.
+oct 23 09:33:07 venux su(pam_unix)[1444]: session opened for user root by ccb(uid=500)
+oct 23 09:33:40 venux su(pam_unix)[1444]: session closed for user root
+oct 23 09:34:18 venux su(pam_unix)[1520]: session opened for user root by ccb(uid=500)
+Oct 23 09:35:41 venux kernel: cs: cb_free(bus 6)
+Oct 23 09:35:41 venux /etc/hotplug/net.agent: NET unregister event not supported
+Oct 23 09:35:41 venux /etc/hotplug/pci.agent: PCI remove event not supported
+Oct 23 09:35:46 venux kernel: cs: cb_alloc(bus 6): vendor 0x10b7, device 0x5157
+Oct 23 09:35:46 venux kernel: PCI: Enabling device 06:00.0 (0000 -> 0003)
+Oct 23 09:35:46 venux kernel: See Documentation/networking/vortex.txt
+Oct 23 09:35:46 venux kernel: 06:00.0: 3Com PCI 3CCFE575BT Cyclone CardBus at 0x4800. Vers LK1.1.16
+Oct 23 09:35:46 venux kernel:  00:50:04:8c:7a:ed, IRQ 11
+Oct 23 09:35:46 venux kernel:   product code 5458 rev 07.1 date 06-23-99
+Oct 23 09:35:46 venux kernel: 06:00.0: CardBus functions mapped 11000080->c8844080
+Oct 23 09:35:46 venux kernel:   8K byte-wide RAM 5:3 Rx:Tx split, MII interface.
+Oct 23 09:35:46 venux kernel:   MII transceiver found at address 0, status 7809.
+Oct 23 09:35:46 venux kernel:   Enabling bus-master transmits and whole-frame receives.
+Oct 23 09:35:46 venux kernel: 06:00.0: scatter/gather enabled. h/w checksums enabled
+Oct 23 09:35:46 venux cardmgr[906]: socket 1: CardBus hotplug device
+Oct 23 09:35:46 venux /etc/hotplug/net.agent: invoke ifup eth0
+Oct 23 09:35:47 venux /etc/hotplug/pci.agent: ... no modules for PCI slot 06:00.0
+Oct 23 09:37:31 venux kernel: cs: cb_free(bus 6)
+Oct 23 09:37:31 venux /etc/hotplug/net.agent: NET unregister event not supported
+Oct 23 09:37:31 venux /etc/hotplug/pci.agent: PCI remove event not supported
+Oct 23 09:37:36 venux kernel: cs: cb_alloc(bus 6): vendor 0x10b7, device 0x5157
+Oct 23 09:37:36 venux kernel: PCI: Enabling device 06:00.0 (0000 -> 0003)
+Oct 23 09:37:36 venux kernel: See Documentation/networking/vortex.txt
+Oct 23 09:37:36 venux kernel: 06:00.0: 3Com PCI 3CCFE575BT Cyclone CardBus at 0x4800. Vers LK1.1.16
+Oct 23 09:37:36 venux kernel:  00:50:04:8c:7a:ed, IRQ 11
+Oct 23 09:37:36 venux kernel:   product code 5458 rev 07.1 date 06-23-99
+Oct 23 09:37:36 venux kernel: 06:00.0: CardBus functions mapped 11000080->c8846080
+Oct 23 09:37:36 venux kernel:   8K byte-wide RAM 5:3 Rx:Tx split, MII interface.
+Oct 23 09:37:36 venux kernel:   MII transceiver found at address 0, status 7809.
+Oct 23 09:37:36 venux kernel:   Enabling bus-master transmits and whole-frame receives.
+Oct 23 09:37:36 venux kernel: 06:00.0: scatter/gather enabled. h/w checksums enabled
+Oct 23 09:37:36 venux cardmgr[906]: socket 1: CardBus hotplug device
+Oct 23 09:37:36 venux /etc/hotplug/net.agent: invoke ifup eth0
+Oct 23 09:37:36 venux /etc/hotplug/pci.agent: ... no modules for PCI slot 06:00.0
+oct 23 09:40:29 venux su(pam_unix)[1926]: session opened for user root by ccb(uid=500)
+oct 23 09:43:44 venux su(pam_unix)[1520]: session closed for user root
+oct 23 09:43:49 venux su(pam_unix)[1926]: session closed for user root
+Oct 23 10:03:02 venux apmd[930]: Now using AC Power
+Oct 23 10:03:02 venux apmd[930]: Charge: * * * (79% 2:38)
+Oct 23 11:58:02 venux apmd[930]: Now using Battery Power
+Oct 23 11:58:02 venux apmd[930]: Battery: * * * (99% 3:18)
+Oct 23 12:32:59 venux apmd[930]: Now using AC Power
+Oct 23 12:32:59 venux apmd[930]: Charge: * * * (88% 2:56)
+Oct 23 18:58:04 venux kernel: EXT2-fs warning: mounting unchecked fs, running e2fsck is recommended
+Oct 23 22:12:10 venux kernel: cs: cb_free(bus 6)
+Oct 23 22:12:11 venux /etc/hotplug/pci.agent: PCI remove event not supported
+Oct 23 22:12:11 venux /etc/hotplug/net.agent: NET unregister event not supported
+oct 23 22:12:17 venux network: Arrêt de l'interface de loopback : succeeded
+Oct 23 22:12:18 venux apmd[930]: System Suspend
+oct 24 08:08:43 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+oct 24 08:08:43 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+Oct 24 08:08:44 venux apmd[930]: Normal Resume after 09:56:26 (100% 3:20) AC power
+Oct 24 09:19:25 venux kernel: cs: cb_alloc(bus 6): vendor 0x10b7, device 0x5157
+Oct 24 09:19:25 venux kernel: PCI: Enabling device 06:00.0 (0000 -> 0003)
+Oct 24 09:19:25 venux kernel: See Documentation/networking/vortex.txt
+Oct 24 09:19:25 venux kernel: 06:00.0: 3Com PCI 3CCFE575BT Cyclone CardBus at 0x4800. Vers LK1.1.16
+Oct 24 09:19:25 venux kernel:  00:50:04:8c:7a:ed, IRQ 11
+Oct 24 09:19:25 venux kernel:   product code 5458 rev 07.1 date 06-23-99
+Oct 24 09:19:25 venux kernel: 06:00.0: CardBus functions mapped 11000080->c8848080
+Oct 24 09:19:25 venux kernel:   8K byte-wide RAM 5:3 Rx:Tx split, MII interface.
+Oct 24 09:19:25 venux kernel:   MII transceiver found at address 0, status 7809.
+Oct 24 09:19:25 venux kernel:   Enabling bus-master transmits and whole-frame receives.
+Oct 24 09:19:25 venux kernel: 06:00.0: scatter/gather enabled. h/w checksums enabled
+Oct 24 09:19:25 venux cardmgr[906]: socket 1: CardBus hotplug device
+Oct 24 09:19:26 venux /etc/hotplug/net.agent: invoke ifup eth0
+Oct 24 09:19:26 venux /etc/hotplug/pci.agent: ... no modules for PCI slot 06:00.0
+Oct 24 09:28:44 venux vsftpd: warning: can't get client address: Bad file descriptor
+Oct 24 09:28:52 venux login(pam_unix)[5422]: session opened for user ccb by (uid=0)
+Oct 24 09:28:52 venux  -- ccb[5422]: LOGIN ON pts/0 BY ccb FROM 192.168.1.52
+Oct 24 10:08:40 venux apmd[930]: Now using Battery Power
+Oct 24 10:09:08 venux apmd[930]: Now using AC Power
+Oct 24 10:09:08 venux apmd[930]: Charge: * * * (99% 3:18)
+Oct 24 10:19:11 venux kernel: cs: cb_free(bus 6)
+Oct 24 10:19:11 venux /etc/hotplug/net.agent: NET unregister event not supported
+Oct 24 10:19:12 venux /etc/hotplug/pci.agent: PCI remove event not supported
+Oct 24 10:20:07 venux kernel: cs: cb_alloc(bus 6): vendor 0x10b7, device 0x5157
+Oct 24 10:20:07 venux kernel: PCI: Enabling device 06:00.0 (0000 -> 0003)
+Oct 24 10:20:07 venux kernel: See Documentation/networking/vortex.txt
+Oct 24 10:20:07 venux kernel: 06:00.0: 3Com PCI 3CCFE575BT Cyclone CardBus at 0x4800. Vers LK1.1.16
+Oct 24 10:20:07 venux kernel:  00:50:04:8c:7a:ed, IRQ 11
+Oct 24 10:20:07 venux kernel:   product code 5458 rev 07.1 date 06-23-99
+Oct 24 10:20:07 venux kernel: 06:00.0: CardBus functions mapped 11000080->c884a080
+Oct 24 10:20:07 venux kernel:   8K byte-wide RAM 5:3 Rx:Tx split, MII interface.
+Oct 24 10:20:07 venux kernel:   MII transceiver found at address 0, status 7809.
+Oct 24 10:20:07 venux kernel:   Enabling bus-master transmits and whole-frame receives.
+Oct 24 10:20:07 venux kernel: 06:00.0: scatter/gather enabled. h/w checksums enabled
+Oct 24 10:20:07 venux cardmgr[906]: socket 1: CardBus hotplug device
+Oct 24 10:20:07 venux /etc/hotplug/net.agent: invoke ifup eth0
+Oct 24 10:20:07 venux /etc/hotplug/pci.agent: ... no modules for PCI slot 06:00.0
+Oct 24 11:01:32 venux login(pam_unix)[5422]: session closed for user ccb
+Oct 24 12:56:04 venux kernel: cs: cb_free(bus 6)
+Oct 24 12:56:04 venux /etc/hotplug/net.agent: NET unregister event not supported
+Oct 24 12:56:04 venux /etc/hotplug/pci.agent: PCI remove event not supported
+Oct 24 12:56:09 venux apmd[930]: Now using Battery Power
+Oct 24 12:56:09 venux apmd[930]: Battery: * * * (100% 3:20)
+oct 24 12:56:14 venux network: Arrêt de l'interface de loopback : succeeded
+Oct 24 12:56:15 venux apmd[930]: System Suspend
+oct 24 12:56:31 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+oct 24 12:56:31 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+Oct 24 12:56:31 venux apmd[930]: Normal Resume after 00:00:16 (99% 3:18) Battery power
+oct 24 12:56:43 venux network: Arrêt de l'interface de loopback : succeeded
+Oct 24 12:56:44 venux apmd[930]: System Suspend
+oct 24 14:18:53 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+oct 24 14:18:53 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+Oct 24 14:18:53 venux apmd[930]: Normal Resume after 01:22:09 (98% 3:16) Battery power
+Oct 24 14:49:20 venux modprobe: modprobe: Can't locate module nls_cp437
+oct 24 14:53:19 venux network: Arrêt de l'interface de loopback : succeeded
+Oct 24 14:53:20 venux apmd[930]: System Suspend
+oct 24 15:55:36 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+oct 24 15:55:36 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+Oct 24 15:55:37 venux apmd[930]: Normal Resume after 01:02:17 (87% 2:54) AC power
+Oct 24 15:55:40 venux apmd[930]: Now using AC Power
+Oct 24 15:57:56 venux kernel: cs: cb_alloc(bus 6): vendor 0x10b7, device 0x5157
+Oct 24 15:57:56 venux kernel: PCI: Enabling device 06:00.0 (0000 -> 0003)
+Oct 24 15:57:56 venux kernel: See Documentation/networking/vortex.txt
+Oct 24 15:57:56 venux kernel: 06:00.0: 3Com PCI 3CCFE575BT Cyclone CardBus at 0x4800. Vers LK1.1.16
+Oct 24 15:57:56 venux kernel:  00:50:04:8c:7a:ed, IRQ 11
+Oct 24 15:57:56 venux kernel:   product code 5458 rev 07.1 date 06-23-99
+Oct 24 15:57:56 venux kernel: 06:00.0: CardBus functions mapped 11000080->c884c080
+Oct 24 15:57:56 venux kernel:   8K byte-wide RAM 5:3 Rx:Tx split, MII interface.
+Oct 24 15:57:56 venux kernel:   MII transceiver found at address 0, status 7809.
+Oct 24 15:57:56 venux kernel:   Enabling bus-master transmits and whole-frame receives.
+Oct 24 15:57:56 venux kernel: 06:00.0: scatter/gather enabled. h/w checksums enabled
+Oct 24 15:57:56 venux cardmgr[906]: socket 1: CardBus hotplug device
+Oct 24 15:57:56 venux /etc/hotplug/net.agent: invoke ifup eth0
+Oct 24 15:57:57 venux /etc/hotplug/pci.agent: ... no modules for PCI slot 06:00.0
+Oct 24 17:19:39 venux apmd[930]: Now using Battery Power
+Oct 24 17:19:39 venux apmd[930]: Battery: * * * (100% 3:20)
+Oct 24 17:38:12 venux apmd[930]: Now using AC Power
+Oct 24 17:38:12 venux apmd[930]: Charge: * * * (93% 3:06)
+Oct 24 17:40:28 venux kernel: cs: cb_free(bus 6)
+Oct 24 17:40:28 venux /etc/hotplug/net.agent: NET unregister event not supported
+Oct 24 17:40:28 venux /etc/hotplug/pci.agent: PCI remove event not supported
+Oct 24 19:04:24 venux apmd[930]: Now using Battery Power
+Oct 24 19:04:24 venux apmd[930]: Battery: * * * (99% 3:18)
+oct 24 19:57:06 venux network: Arrêt de l'interface de loopback : succeeded
+Oct 24 19:57:07 venux apmd[930]: System Suspend
+oct 24 22:11:26 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+oct 24 22:11:26 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+Oct 24 22:11:27 venux apmd[930]: Normal Resume after 02:14:20 (82% 2:44) AC power
+Oct 24 22:11:28 venux apmd[930]: Now using AC Power
+Oct 24 22:11:39 venux kernel: cs: cb_alloc(bus 6): vendor 0x10b7, device 0x5157
+Oct 24 22:11:39 venux kernel: PCI: Enabling device 06:00.0 (0000 -> 0003)
+Oct 24 22:11:39 venux kernel: See Documentation/networking/vortex.txt
+Oct 24 22:11:39 venux kernel: 06:00.0: 3Com PCI 3CCFE575BT Cyclone CardBus at 0x4800. Vers LK1.1.16
+Oct 24 22:11:39 venux kernel:  00:50:04:8c:7a:ed, IRQ 11
+Oct 24 22:11:39 venux kernel:   product code 5458 rev 07.1 date 06-23-99
+Oct 24 22:11:39 venux kernel: 06:00.0: CardBus functions mapped 11000080->c884e080
+Oct 24 22:11:39 venux kernel:   8K byte-wide RAM 5:3 Rx:Tx split, MII interface.
+Oct 24 22:11:39 venux kernel:   MII transceiver found at address 0, status 7809.
+Oct 24 22:11:39 venux kernel:   Enabling bus-master transmits and whole-frame receives.
+Oct 24 22:11:39 venux kernel: 06:00.0: scatter/gather enabled. h/w checksums enabled
+Oct 24 22:11:39 venux cardmgr[906]: socket 1: CardBus hotplug device
+Oct 24 22:11:40 venux /etc/hotplug/net.agent: invoke ifup eth0
+Oct 24 22:11:40 venux /etc/hotplug/pci.agent: ... no modules for PCI slot 06:00.0
+Oct 24 22:13:52 venux kernel: cs: cb_free(bus 6)
+Oct 24 22:13:52 venux /etc/hotplug/net.agent: NET unregister event not supported
+Oct 24 22:13:52 venux /etc/hotplug/pci.agent: PCI remove event not supported
+oct 24 22:13:58 venux network: Arrêt de l'interface de loopback : succeeded
+Oct 24 22:13:59 venux apmd[930]: System Suspend
+oct 25 06:44:20 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+oct 25 06:44:20 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+Oct 25 06:44:20 venux apmd[930]: Normal Resume after 08:30:21 (100% 3:20) AC power
+Oct 25 06:50:08 venux kernel: cs: cb_alloc(bus 6): vendor 0x10b7, device 0x5157
+Oct 25 06:50:08 venux kernel: PCI: Enabling device 06:00.0 (0000 -> 0003)
+Oct 25 06:50:08 venux kernel: See Documentation/networking/vortex.txt
+Oct 25 06:50:08 venux kernel: 06:00.0: 3Com PCI 3CCFE575BT Cyclone CardBus at 0x4800. Vers LK1.1.16
+Oct 25 06:50:08 venux kernel:  00:50:04:8c:7a:ed, IRQ 11
+Oct 25 06:50:08 venux kernel:   product code 5458 rev 07.1 date 06-23-99
+Oct 25 06:50:08 venux kernel: 06:00.0: CardBus functions mapped 11000080->c8850080
+Oct 25 06:50:08 venux kernel:   8K byte-wide RAM 5:3 Rx:Tx split, MII interface.
+Oct 25 06:50:08 venux kernel:   MII transceiver found at address 0, status 7809.
+Oct 25 06:50:08 venux kernel:   Enabling bus-master transmits and whole-frame receives.
+Oct 25 06:50:08 venux kernel: 06:00.0: scatter/gather enabled. h/w checksums enabled
+Oct 25 06:50:08 venux cardmgr[906]: socket 1: CardBus hotplug device
+Oct 25 06:50:08 venux /etc/hotplug/net.agent: invoke ifup eth0
+Oct 25 06:50:08 venux /etc/hotplug/pci.agent: ... no modules for PCI slot 06:00.0
+Oct 25 06:51:50 venux login(pam_unix)[9223]: session opened for user ccb by (uid=0)
+Oct 25 06:51:50 venux  -- ccb[9223]: LOGIN ON pts/0 BY ccb FROM 192.168.1.52
+Oct 25 07:28:12 venux login(pam_unix)[9408]: session opened for user ccb by (uid=0)
+Oct 25 07:28:12 venux  -- ccb[9408]: LOGIN ON pts/2 BY ccb FROM 192.168.1.52
+Oct 25 08:02:43 venux login(pam_unix)[9970]: session opened for user ccb by (uid=0)
+Oct 25 08:02:43 venux  -- ccb[9970]: LOGIN ON pts/4 BY ccb FROM 192.168.1.52
+Oct 25 08:04:02 venux login(pam_unix)[10076]: session opened for user ccb by (uid=0)
+Oct 25 08:04:02 venux  -- ccb[10076]: LOGIN ON pts/5 BY ccb FROM 192.168.1.52
+Oct 25 14:59:48 venux vsftpd: warning: can't get client address: Bad file descriptor
+Oct 25 16:47:34 venux vsftpd: warning: can't get client address: Bad file descriptor
+Oct 25 16:58:37 venux vsftpd: warning: can't get client address: Bad file descriptor
+Oct 25 17:01:30 venux vsftpd: warning: can't get client address: Bad file descriptor
+Oct 25 17:02:26 venux login(pam_unix)[11138]: session opened for user ccb by (uid=0)
+Oct 25 17:02:26 venux  -- ccb[11138]: LOGIN ON pts/1 BY ccb FROM 192.168.1.52
+Oct 25 17:03:10 venux login(pam_unix)[11138]: session closed for user ccb
+Oct 25 17:03:10 venux login(pam_unix)[9223]: session closed for user ccb
+Oct 25 17:03:10 venux login(pam_unix)[9408]: session closed for user ccb
+Oct 25 17:03:11 venux login(pam_unix)[10076]: session closed for user ccb
+Oct 25 17:03:11 venux login(pam_unix)[9970]: session closed for user ccb
+Oct 25 18:13:34 venux apmd[930]: Now using Battery Power
+Oct 25 18:14:28 venux apmd[930]: Now using AC Power
+Oct 25 18:14:28 venux apmd[930]: Charge: * * * (99% 3:18)
+Oct 25 18:15:05 venux login(pam_unix)[11278]: session opened for user ccb by (uid=0)
+Oct 25 18:15:05 venux  -- ccb[11278]: LOGIN ON pts/0 BY ccb FROM 192.168.1.52
+Oct 25 18:47:31 venux login(pam_unix)[11278]: session closed for user ccb
+Oct 25 18:47:59 venux vsftpd: warning: can't get client address: Bad file descriptor
+Oct 25 18:49:13 venux login(pam_unix)[11534]: session opened for user ccb by (uid=0)
+Oct 25 18:49:13 venux  -- ccb[11534]: LOGIN ON pts/0 BY ccb FROM 192.168.1.52
+Oct 25 18:56:05 venux vsftpd: warning: can't get client address: Bad file descriptor
+Oct 25 19:08:57 venux vsftpd: warning: can't get client address: Bad file descriptor
+Oct 25 19:10:03 venux login(pam_unix)[11534]: session closed for user ccb
+Oct 25 19:11:19 venux apmd[930]: Now using Battery Power
+Oct 25 19:11:19 venux apmd[930]: Battery: * * * (100% 3:20)
+Oct 25 19:55:09 venux apmd[930]: Now using AC Power
+Oct 25 19:55:09 venux apmd[930]: Charge: * * * (84% 2:48)
+Oct 25 23:55:38 venux kernel: cs: cb_free(bus 6)
+Oct 25 23:55:38 venux /etc/hotplug/pci.agent: PCI remove event not supported
+Oct 25 23:55:38 venux /etc/hotplug/net.agent: NET unregister event not supported
+oct 25 23:55:43 venux network: Arrêt de l'interface de loopback : succeeded
+Oct 25 23:55:44 venux apmd[930]: System Suspend
+oct 26 05:24:26 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+oct 26 05:24:26 venux netfs: Montage d'autres sytèmes de fichiers : succeeded
+Oct 26 05:24:27 venux apmd[930]: Normal Resume after 06:28:43 (100% 3:20) AC power
+Oct 26 05:24:30 venux kernel: cs: cb_alloc(bus 6): vendor 0x10b7, device 0x5157
+Oct 26 05:24:30 venux kernel: PCI: Enabling device 06:00.0 (0000 -> 0003)
+Oct 26 05:24:30 venux kernel: See Documentation/networking/vortex.txt
+Oct 26 05:24:30 venux kernel: 06:00.0: 3Com PCI 3CCFE575BT Cyclone CardBus at 0x4800. Vers LK1.1.16
+Oct 26 05:24:30 venux kernel:  00:50:04:8c:7a:ed, IRQ 11
+Oct 26 05:24:30 venux kernel:   product code 5458 rev 07.1 date 06-23-99
+Oct 26 05:24:30 venux kernel: 06:00.0: CardBus functions mapped 11000080->c8852080
+Oct 26 05:24:30 venux kernel:   8K byte-wide RAM 5:3 Rx:Tx split, MII interface.
+Oct 26 05:24:30 venux kernel:   MII transceiver found at address 0, status 7809.
+Oct 26 05:24:30 venux kernel:   Enabling bus-master transmits and whole-frame receives.
+Oct 26 05:24:30 venux kernel: 06:00.0: scatter/gather enabled. h/w checksums enabled
+Oct 26 05:24:30 venux /etc/hotplug/net.agent: invoke ifup eth0
+Oct 26 05:24:30 venux cardmgr[906]: socket 1: CardBus hotplug device
+Oct 26 05:24:31 venux /etc/hotplug/pci.agent: ... no modules for PCI slot 06:00.0
+Oct 26 05:27:39 venux login(pam_unix)[12345]: session opened for user ccb by (uid=0)
+Oct 26 05:27:39 venux  -- ccb[12345]: LOGIN ON pts/0 BY ccb FROM 192.168.1.52
+Oct 26 06:00:56 venux kernel:  06:5D:04:8c:7a:ed, IRQ 11
+oct 26 06:29:33 venux cups: Arrêt de cupsd succeeded
+Oct 26 06:29:34 venux modprobe: modprobe: Can't locate module char-major-188
+Oct 26 06:29:34 venux last message repeated 15 times
+oct 26 06:29:35 venux cupsd: cupsd: Child exited with status 99!
+oct 26 06:29:35 venux cups: Démarrage de cupsd  succeeded
